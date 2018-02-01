@@ -133,7 +133,7 @@ $wday = array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
 
  function page_footer ($self) {
   global $docroot;
-  $localfile = ($docroot . "/" . $self . ".html");
+  $localfile = ($docroot . "/" . $self . ".php");
   global $month, $wday;
   $change = getdate(filemtime("$localfile"));
   $cts = ($wday[$change["wday"]] . " " .

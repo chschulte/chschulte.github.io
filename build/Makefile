@@ -8,5 +8,5 @@ clean:
 install:
 	cp -f $(HTML) ..
 
-%.html: src/defaults.php src/%.php
+%.html: src/%.php src/defaults.php
 	php $< > $@
