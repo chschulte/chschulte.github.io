@@ -1,4 +1,4 @@
-HTML = index.html
+HTML = index.html contact.html bio.html
 
 all: $(HTML)
 

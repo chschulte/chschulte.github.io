@@ -39,7 +39,7 @@
   $inmenu = 0;
   $idx = -1;
   for ($i=0; $i < count($suburls); $i++) {
-     if ($suburls[$i]["url"] == "$self") {
+     if ($suburls[$i]["url"] == "src/$self") {
      	$hdr  = $suburls[$i]["hdr"];
         if ($suburls[$i]["slogan"]) {
            $slogan = $suburls[$i]["slogan"];
