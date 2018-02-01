@@ -1,0 +1,4 @@
+AuthName "Ericsson Course Material"
+AuthType Basic
+AuthUserFile /afs/it.kth.se/home/c/s/cschulte/public_html/teaching/ericsson/.htpasswd
+require valid-user
