@@ -176,7 +176,7 @@ function bib_footer() {
      print ("   URL =       \"" . $paper["link"] . "\"\n");
   } else {
      $pid = str_replace(":","-",strtolower($id));
-     print ("   URL =       \"" . $urlroot . $pid . ".html\"\n");
+     print ("   URL =       \"" . $urlroot . "papers/" . $pid . ".html\"\n");
   }
   print "}\n";
 }
