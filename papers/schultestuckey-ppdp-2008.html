@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+	<meta name="author" content="Christian Schulte" />
+	<link rel="stylesheet" type="text/css" 
+              href="https://chschulte.github.io/style.css" title="1024px" media="screen,projection" />
+	<title>Christian Schulte: Papers</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <p id="toplinks">[<a href="#content">content</a> | 
+<a href="#sidebar">navigation</a> |                      <a href="#footer">footer</a>]
+    </p>
+    <h1>Papers</h1>
+    <p id="slogan">Christian Schulte</p>
+  </div>
+<div id="sidebar"><h2>information</h2><ul><li><a href="https://chschulte.github.io/index.html">main</a></li><li><a href="https://chschulte.github.io/contact.html">contact</a></li><li><a href="https://chschulte.github.io/papers.html">papers</a></li><li><a href="https://chschulte.github.io/software.html">software</a></li><li><a href="https://chschulte.github.io/education.html">education</a></li><li><a href="https://chschulte.github.io/presentations.html">presentations</a></li><li><a href="https://chschulte.github.io/bio.html">short bio</a></li></ul><h2>options</h2><ul>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
+</ul></div>
+<div id="content">
+
+  <h2>Dynamic Variable Elimination During Propagation Solving</h2>
+
+  <p><a href="http://www.gecode.org/~schulte/">Christian Schulte</a>, <a href="http://www.cs.mu.oz.au/~pjs/">Peter J. Stuckey</a>.</p>
+
+  <p>
+  [<a href="papers/SchulteStuckey_PPDP_2008.pdf">pdf</a> |   <a href="bibtex.php?id=SchulteStuckey:PPDP:2008">bibtex</a>]
+  </p>
+
+  <p>    
+  Constraint propagation solvers interleave propagation (removing
+  impossible values from variables domains) with search.
+  Propagation is performed by executing propagators (removing
+  values) implementing constraints (defining impossible values).
+  In order to specify constraint problems with a propagation
+  solver often many new intermediate variables need to be
+  introduced.  Each variable plays a role in calculating the
+  value of some expression.  But as search proceeds not all of
+  these expressions will be of interest any longer, but the
+  propagators implementing them will remain active.  In this
+  paper we show how we can analyse the propagation graph of the
+  solver in linear time to determine intermediate variables that
+  can be removed without effecting the result.  Experiments show
+  that applying this analysis can reduce the space and time
+  requirements for constraint propagation on example problems.
+</p>
+  <p>
+  <b>In:</b> Sergio Antoy, editor, <i>Tenth International ACM SIGPLAN Symposium on Principles and Practice of Declarative Programming</i>, <i>Valencia, Spain</i>, pages 247-257. ACM Press, July, 2008. <a href="http://dx.doi.org/10.1145/1389449.1389480">DOI 10.1145/1389449.1389480</a>.</p><p class="box">Copyright ACM, 2008. This is the author's version of the work. It is posted here by permission of ACM for your personal use. Not for redistribution. The definite version was published as described above.  </p>
+
+</div>
+
+
+  <div id="footer">
+    &copy; 2009 <a href="https://chschulte.github.io/">Christian Schulte</a> (Fri Feb 2 13:11:37 2018) |
+    original design by <a href="http://andreasviklund.com/"
+    >Andreas Viklund</a>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+	<meta name="author" content="Christian Schulte" />
+	<link rel="stylesheet" type="text/css" 
+              href="https://chschulte.github.io/style.css" title="1024px" media="screen,projection" />
+	<title>Christian Schulte: Papers</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <p id="toplinks">[<a href="#content">content</a> | 
+<a href="#sidebar">navigation</a> |                      <a href="#footer">footer</a>]
+    </p>
+    <h1>Papers</h1>
+    <p id="slogan">Christian Schulte</p>
+  </div>
+<div id="sidebar"><h2>information</h2><ul><li><a href="https://chschulte.github.io/index.html">main</a></li><li><a href="https://chschulte.github.io/contact.html">contact</a></li><li><a href="https://chschulte.github.io/papers.html">papers</a></li><li><a href="https://chschulte.github.io/software.html">software</a></li><li><a href="https://chschulte.github.io/education.html">education</a></li><li><a href="https://chschulte.github.io/presentations.html">presentations</a></li><li><a href="https://chschulte.github.io/bio.html">short bio</a></li></ul><h2>options</h2><ul>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
+</ul></div>
+<div id="content">
+
+  <h2>View-based Propagator Derivation</h2>
+
+  <p><a href="http://www.gecode.org/~schulte/">Christian Schulte</a>, <a href="http://www.csse.monash.edu.au/~guidot/">Guido Tack</a>.</p>
+
+  <p>
+  [<a href="papers/schultetack-cp-2014.pdf">pdf</a> |   <a href="bibtex.php?id=SchulteTack:CP:2014">bibtex</a>]
+  </p>
+
+  <p>	     
+  When implementing a propagator for a constraint, one must decide
+  about variants: When implementing min, should one also implement
+  max?  Should one implement linear equations both with and without
+  coefficients?  Constraint variants are ubiquitous: implementing them
+  requires considerable effort, but yields better 
+  performance.
+</p>
+<p>
+  This abstract shows how to use <em>views</em> to <em>derive</em>
+  propagator variants where derived propagators are
+  <em>perfect</em> in that they inherit essential properties such
+  as correctness and domain and bounds consistency. Techniques
+  for systematically deriving propagators are developed, and the
+  abstract sketches an implementation architecture for views that is
+  independent of the underlying constraint programming system.
+  Evaluation of views implemented in Gecode shows that derived
+  propagators are efficient and that views often incur no
+  overhead. Views have proven essential for implementing Gecode,
+  substantially reducing the amount of code that needs to be
+  written and maintained.
+</p>
+  <p>
+  <b>In:</b> Barry O'Sullivan, editor, <i>Twentieth International Conference on Principles and Practice of Constraint Programming</i>, <i>Lyon, France</i>, volume 8656 of Lecture Notes in Computer Science, pages 938-942. Springer-Verlag, September, 2014. <a href="http://dx.doi.org/10.1007/978-3-319-10428-7_71">DOI 10.1007/978-3-319-10428-7_71</a>.</p><p class="box">Copyright Springer-Verlag, the original publication is available at <a href="http://www.springerlink.com/">www.springerlink.com</a>  </p>
+
+</div>
+
+
+  <div id="footer">
+    &copy; 2009 <a href="https://chschulte.github.io/">Christian Schulte</a> (Fri Feb 2 14:00:05 2018) |
+    original design by <a href="http://andreasviklund.com/"
+    >Andreas Viklund</a>
+  </div>
+
+</div>
+</body>
+</html>

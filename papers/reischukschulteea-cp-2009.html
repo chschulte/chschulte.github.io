@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+	<meta name="author" content="Christian Schulte" />
+	<link rel="stylesheet" type="text/css" 
+              href="https://chschulte.github.io/style.css" title="1024px" media="screen,projection" />
+	<title>Christian Schulte: Papers</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <p id="toplinks">[<a href="#content">content</a> | 
+<a href="#sidebar">navigation</a> |                      <a href="#footer">footer</a>]
+    </p>
+    <h1>Papers</h1>
+    <p id="slogan">Christian Schulte</p>
+  </div>
+<div id="sidebar"><h2>information</h2><ul><li><a href="https://chschulte.github.io/index.html">main</a></li><li><a href="https://chschulte.github.io/contact.html">contact</a></li><li><a href="https://chschulte.github.io/papers.html">papers</a></li><li><a href="https://chschulte.github.io/software.html">software</a></li><li><a href="https://chschulte.github.io/education.html">education</a></li><li><a href="https://chschulte.github.io/presentations.html">presentations</a></li><li><a href="https://chschulte.github.io/bio.html">short bio</a></li></ul><h2>options</h2><ul>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
+</ul></div>
+<div id="content">
+
+  <h2>Maintaining State in Propagation Solvers</h2>
+
+  <p><a href="http://www.infsec.cs.uni-sb.de/~reischuk/">Raphael M. Reischuk</a>, <a href="http://www.gecode.org/~schulte/">Christian Schulte</a>, <a href="http://www.cs.mu.oz.au/~pjs/">Peter J. Stuckey</a>, <a href="http://www.csse.monash.edu.au/~guidot/">Guido Tack</a>.</p>
+
+  <p>
+  [<a href="papers/ReischukSchulteEa_CP_2009.pdf">pdf</a> |   <a href="bibtex.php?id=ReischukSchulteEa:CP:2009">bibtex</a>]
+  </p>
+
+  <p>    
+Constraint propagation solvers interleave propagation, removing
+impossible values from variable domains, with search.  The solver
+state is modified during propagation.  But search requires the
+solver to return to a previous state. Hence a propagation solver
+must determine how to maintain state during propagation and
+forward and backward search.  This paper sets out the possible
+ways in which a propagation solver can choose to maintain state,
+and the restrictions that such choices place on the resulting
+system.  Experiments illustrate the result of various choices for
+the three principle state components of a solver: variables,
+propagators, and dependencies between them.  This paper also
+provides the first realistic comparison of trailing versus
+copying for state restoration.
+</p>
+  <p>
+  <b>In:</b> Ian Gent, editor, <i>Fifteenth International Conference on Principles and Practice of Constraint Programming</i>, <i>Lisbon, Portugal</i>, volume 5732 of Lecture Notes in Computer Science, pages 692-706. Springer-Verlag, September, 2009. <a href="http://dx.doi.org/10.1007/978-3-642-04244-7_54">DOI 10.1007/978-3-642-04244-7_54</a>.</p><p class="box">Copyright Springer-Verlag, the original publication is available at <a href="http://www.springerlink.com/">www.springerlink.com</a>  </p>
+
+</div>
+
+
+  <div id="footer">
+    &copy; 2009 <a href="https://chschulte.github.io/">Christian Schulte</a> (Fri Feb 2 13:11:37 2018) |
+    original design by <a href="http://andreasviklund.com/"
+    >Andreas Viklund</a>
+  </div>
+
+</div>
+</body>
+</html>

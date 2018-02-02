@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+	<meta name="author" content="Christian Schulte" />
+	<link rel="stylesheet" type="text/css" 
+              href="https://chschulte.github.io/style.css" title="1024px" media="screen,projection" />
+	<title>Christian Schulte: Papers</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <p id="toplinks">[<a href="#content">content</a> | 
+<a href="#sidebar">navigation</a> |                      <a href="#footer">footer</a>]
+    </p>
+    <h1>Papers</h1>
+    <p id="slogan">Christian Schulte</p>
+  </div>
+<div id="sidebar"><h2>information</h2><ul><li><a href="https://chschulte.github.io/index.html">main</a></li><li><a href="https://chschulte.github.io/contact.html">contact</a></li><li><a href="https://chschulte.github.io/papers.html">papers</a></li><li><a href="https://chschulte.github.io/software.html">software</a></li><li><a href="https://chschulte.github.io/education.html">education</a></li><li><a href="https://chschulte.github.io/presentations.html">presentations</a></li><li><a href="https://chschulte.github.io/bio.html">short bio</a></li></ul><h2>options</h2><ul>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
+</ul></div>
+<div id="content">
+
+  <h2>Constraint-based Register Allocation and Instruction Scheduling</h2>
+
+  <p><a href="http://www.sics.se/~rcas/">Roberto Castañeda Lozano</a>, <a href="http://www.sics.se/~matsc/">Mats Carlsson</a>, <a href="http://www.sics.se/~frej/">Frej Drejhammar</a>, <a href="http://www.gecode.org/~schulte/">Christian Schulte</a>.</p>
+
+  <p>
+  [<a href="papers/castanedacarlssonea-cp-2012.pdf">pdf</a> |   <a href="bibtex.php?id=CastanedaCarlssonEa:CP:2012">bibtex</a>]
+  </p>
+
+  <p>    
+  This paper introduces a constraint model and solving techniques
+  for code generation in a compiler back-end.
+  It contributes a new model for global register allocation that
+  combines several advanced aspects: multiple register banks
+  (subsuming spilling to memory), coalescing, and packing. The
+  model is extended to include instruction scheduling and
+  bundling.
+  The paper introduces a decomposition scheme exploiting the underlying
+  program structure and exhibiting robust behavior for
+  functions with thousands of instructions.  Evaluation shows
+  that code quality is on par with LLVM, a state-of-the-art
+  compiler infrastructure.
+</p>
+<p>
+  The paper makes important contributions to the applicability of
+  constraint programming as well as compiler construction:
+  essential concepts are unified in a high-level model
+  that can be solved by readily available modern solvers. This is
+  a significant step towards basing code generation entirely on
+  a high-level model and by this facilitates the construction of
+  correct, simple, flexible, robust, and high-quality code
+  generators.
+</p>
+  <p>
+  <b>In:</b> Michela Milano, editor, <i>Eighteenth International Conference on Principles and Practice of Constraint Programming</i>, <i>Québec City, Canada</i>, volume 7514 of Lecture Notes in Computer Science, pages 750-766. Springer-Verlag, October, 2012. <a href="http://dx.doi.org/10.1007/978-3-642-33558-7_54">DOI 10.1007/978-3-642-33558-7_54</a>.</p><p class="box">Copyright Springer-Verlag, the original publication is available at <a href="http://www.springerlink.com/">www.springerlink.com</a>  </p>
+
+</div>
+
+
+  <div id="footer">
+    &copy; 2009 <a href="https://chschulte.github.io/">Christian Schulte</a> (Fri Feb 2 14:00:05 2018) |
+    original design by <a href="http://andreasviklund.com/"
+    >Andreas Viklund</a>
+  </div>
+
+</div>
+</body>
+</html>
