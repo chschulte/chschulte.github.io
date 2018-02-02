@@ -33,7 +33,7 @@ page_header("Papers",$o);
     } else if ($paper["link"] != "") {
       print ("<a href=\"" . $paper["link"] . "\">more</a> | ");
     } else {
-      print ("<a href=\"papers/" . $pid . ".pdf\">pdf</a> | ");      
+      print ("<a href=\"" . $pid . ".pdf\">pdf</a> | ");      
     }
     if ($paper["acm"] != "") {
       print ("<a href=\"" . $paper["acm"] . "\">ACM version</a> | ");

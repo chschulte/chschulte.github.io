@@ -1,10 +1,10 @@
 <?php
+include 'defaults.php';
 include 'data/papers.php';
 include 'templates/papers.php';
 
 $id    = $_GET["id"];
 $paper = $papers[$id];
-include 'defaults.php';
 
 $o = <<<EOO
 <ul>
