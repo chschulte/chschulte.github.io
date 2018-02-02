@@ -64,8 +64,7 @@ Swedish Research Council (VR), 624-2013-6330, 2013. Volume: 60 KSEK, role: grant
 
 
     <ul>
-    <li>Co-organizer, <a href="http://www.gecode.org/events/acp-summerschool-2011/"
-        >ACP Summer School 2011: Hybrid Methods for Constraint Programming</a>, Turunç, Turkey,
+    <li>Co-organizer, ACP Summer School 2011: Hybrid Methods for Constraint Programming, Turunç, Turkey,
        June/July 2011.
     </li>
     <li>Invited lecturer, Constraint Programming Systems.
