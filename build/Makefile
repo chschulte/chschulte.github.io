@@ -4,6 +4,7 @@ HTML = \
 	education.html education-full.html \
 	papers.html papers-year.html papers-type.html \
 	projects/cocoprop.html projects/unison.html
+INSTALL = $(HTML:%=../%)
 
 CONV = iconv -f ISO-8859-1 -t UTF-8
 all: $(HTML)
@@ -11,8 +12,7 @@ all: $(HTML)
 clean:
 	rm -rf $(HTML)
 
-install: all
-	cp -f $(HTML) ..
+install: $(INSTALL)
 
 presentations-year.html: src/presentations.php src/defaults.php
 	php -f $< opt=year | $(CONV) > $@
@@ -35,3 +35,6 @@ papers-type.html: src/papers.php src/defaults.php
 
 projects/%.html: src/projects/%.php src/defaults.php
 	php -f $< | $(CONV) > $@
+
+../%.html: %.html
+	cp -f $< $@
