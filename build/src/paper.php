@@ -27,19 +27,19 @@ page_header("Papers",$o);
 
   <p>
   [<?php
+    $pid = str_replace(":","-",strtolower($id));
     if ($paper["nopdf"] == 1) {
       ;
     } else if ($paper["link"] != "") {
       print ("<a href=\"" . $paper["link"] . "\">more</a> | ");
     } else {
-      $pdf = str_replace(":","-",strtolower($id));
-      print ("<a href=\"papers/" . $pdf . ".pdf\">pdf</a> | ");      
+      print ("<a href=\"papers/" . $pid . ".pdf\">pdf</a> | ");      
     }
     if ($paper["acm"] != "") {
       print ("<a href=\"" . $paper["acm"] . "\">ACM version</a> | ");
     }
-  ?>
-  <a href="bibtex.php?id=<?php echo $id; ?>">bibtex</a>]
+    print "<a href=\"bibtex-" . $pid . ".html\">bibtex</a>";
+  ?>]
   </p>
 
   <?php

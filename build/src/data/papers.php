@@ -73,7 +73,7 @@ array(
       "scheidhr" =>
       array("name" => "Ralf Scheidhauer"),
       "schulte" => 
-      array("href" => "http://www.gecode.org/~schulte/",
+      array("href" => "https://chschulte.github.io/",
 	    "name" => "Christian Schulte"),
       "smolka" =>
       array("href" => "http://www.ps.uni-sb.de/~smolka/",

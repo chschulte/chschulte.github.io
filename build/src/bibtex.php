@@ -8,9 +8,9 @@ include 'defaults.php';
 
 $o = <<<EOO
 <ul>
-<li><a href="papers.html?opt=selected">selected</a></li>
-<li><a href="papers.html?opt=year">by year</a></li>
-<li><a href="papers.html?opt=type">by type</a></li>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
 </ul>
 EOO
 ;
@@ -175,7 +175,8 @@ function bib_footer() {
   if ($paper["link"] != "") {
      print ("   URL =       \"" . $paper["link"] . "\"\n");
   } else {
-     print ("   URL =       \"" . $urlroot . "paper.html?id=" . $id . "\"\n");
+     $pid = str_replace(":","-",strtolower($id));
+     print ("   URL =       \"" . $urlroot . $pid . ".html\"\n");
   }
   print "}\n";
 }

@@ -40,7 +40,7 @@ function p_paper ($id, $p) {
 print "PAPERS = \\\n";
 foreach ($papers as $id => $p) {
   $pid = str_replace(":","-",strtolower($id));
-  print "papers/" . $pid . ".html \\\n";
+  print "papers/" . $pid . ".html papers/bibtex-" . $pid . ".html \\\n";
 }
 
 print "\n";
@@ -50,6 +50,9 @@ foreach ($papers as $id => $p) {
   print "papers/" . $pid . ".html: src/paper.php src/defaults.php\n";
   print "\tphp -f src/paper.php id=" . $id . " | $(CONV) > ";
   print "papers/" . $pid . ".html\n";
+  print "papers/bibtex-" . $pid . ".html: src/bibtex.php src/defaults.php\n";
+  print "\tphp -f src/bibtex.php id=" . $id . " | $(CONV) > ";
+  print "papers/bibtex-" . $pid . ".html\n";
 }
 
 ?>
