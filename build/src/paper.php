@@ -1,16 +1,16 @@
 <?php
+include 'defaults.php';
 include 'data/papers.php';
 include 'templates/papers.php';
 
 $id    = $_GET["id"];
 $paper = $papers[$id];
-include 'defaults.php';
 
 $o = <<<EOO
 <ul>
-<li><a href="papers.html?opt=selected">selected</a></li>
-<li><a href="papers.html?opt=year">by year</a></li>
-<li><a href="papers.html?opt=type">by type</a></li>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
 </ul>
 EOO
 ;
@@ -32,7 +32,7 @@ page_header("Papers",$o);
     } else if ($paper["link"] != "") {
       print ("<a href=\"" . $paper["link"] . "\">more</a> | ");
     } else {
-      $pdf = str_replace(":","_",$id);
+      $pdf = str_replace(":","-",strtolower($id));
       print ("<a href=\"papers/" . $pdf . ".pdf\">pdf</a> | ");      
     }
     if ($paper["acm"] != "") {

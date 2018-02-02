@@ -4,15 +4,16 @@ HTML = \
 	education.html education-full.html \
 	papers.html papers-year.html papers-type.html \
 	projects/cocoprop.html projects/unison.html
-INSTALL = $(HTML:%=../%)
+
 
 CONV = iconv -f ISO-8859-1 -t UTF-8
-all: $(HTML)
+all:: $(HTML)
+
+Makefile.papers: src/pids.php src/data/papers.php
+	php -f src/pids.php > Makefile.papers
 
 clean:
 	rm -rf $(HTML)
-
-install: $(INSTALL)
 
 presentations-year.html: src/presentations.php src/defaults.php
 	php -f $< opt=year | $(CONV) > $@
@@ -38,3 +39,12 @@ projects/%.html: src/projects/%.php src/defaults.php
 
 ../%.html: %.html
 	cp -f $< $@
+
+-include Makefile.papers
+
+all:: $(PAPERS)
+
+INSTALL = $(HTML:%=../%) $(PAPERS:%=../%)
+
+install: $(INSTALL) 
+

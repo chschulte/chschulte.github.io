@@ -31,7 +31,8 @@ EOO
 <?php
 
 function p_paper ($id, $p) {
-  print ("  <li><a href=\"paper.html?id=" . $id . "\">" .
+  $pid = str_replace(":","-",strtolower($id));
+  print ("  <li><a href=\"papers/" . $pid . ".html\">" .
 	 get_title($p) . "</a>, <span class=\"authors\">" . 
          get_authors($p) . "</span>.<br />");
   if ($p["type"] == "book") {
