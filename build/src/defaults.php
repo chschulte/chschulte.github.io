@@ -1,5 +1,7 @@
 <?php 
 
+ parse_str(implode('&', array_slice($argv, 1)), $_GET);
+
  $months = array("JAN" => "January", "FEB" => "February",
                  "MAR" => "March", "APR" => "April",
                  "MAY" => "May", "JUN" => "June",
@@ -39,7 +41,7 @@
   $inmenu = 0;
   $idx = -1;
   for ($i=0; $i < count($suburls); $i++) {
-     if ($suburls[$i]["url"] == "src/$self") {
+     if ($suburls[$i]["url"] == "$self") {
      	$hdr  = $suburls[$i]["hdr"];
         if ($suburls[$i]["slogan"]) {
            $slogan = $suburls[$i]["slogan"];
@@ -72,7 +74,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
 	<meta name="author" content="Christian Schulte" />
 	<link rel="stylesheet" type="text/css" 
               href="<?php echo $urlroot; ?>style.css" title="1024px" media="screen,projection" />

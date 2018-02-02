@@ -101,7 +101,7 @@ foreach ($courses as $code => $info) {
   if (!$full) {
 ?>
    <p class="readmore">
-     <a href="education.html?full=1">more courses</a> &raquo;
+     <a href="education-full.html">more courses</a> &raquo;
    </p>
 <?php
   }
@@ -295,7 +295,7 @@ foreach ($mstudents as $i => $info) {
   if (!$full) {
 ?>
    <p class="readmore">
-     <a href="education.html?full=1">more students</a> &raquo;
+     <a href="education-full.html">more students</a> &raquo;
    </p>
 <?php
   }
@@ -359,7 +359,7 @@ foreach ($bstudents as $i => $info) {
   if (!$full) {
 ?>
    <p class="readmore">
-     <a href="education.html?full=1">more students</a> &raquo;
+     <a href="education-full.html">more students</a> &raquo;
    </p>
 <?php
   }

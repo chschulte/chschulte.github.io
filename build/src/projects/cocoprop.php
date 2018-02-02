@@ -1,5 +1,5 @@
 <?php
-  include '../defaults.php';
+  include 'src/defaults.php';
   page_header("Coordinating Constraint Propagation");
 ?>
 

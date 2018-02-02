@@ -13,9 +13,9 @@ if ($opt == "year") {
   
 $o = <<<EOO
 <ul>
-<li><a $cr href="presentations.html?opt=recent">recent</a></li>
-<li><a $cy href="presentations.html?opt=year">by year</a></li>
-<li><a $ct href="presentations.html?opt=type">by type</a></li>
+<li><a $cr href="presentations.html">recent</a></li>
+<li><a $cy href="presentations-year.html">by year</a></li>
+<li><a $ct href="presentations-type.html">by type</a></li>
 </ul>
 EOO
 ;

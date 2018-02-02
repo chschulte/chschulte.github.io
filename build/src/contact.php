@@ -15,24 +15,17 @@
           </tr>
           <tr valign="top" align="left">
             <th>skype</th> 
-	    <td>
-<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-<div id="SkypeButton_Call_christian_schulte_sverige_1">
-  <script type="text/javascript">
-    Skype.ui({
-      "name": "call",
-      "element": "SkypeButton_Call_christian_schulte_sverige_1",
-      "participants": ["christian_schulte_sverige"]
-    });
-  </script>
-</div>
-          </td>
+	    <td>christian_schulte_sverige</td>
           </tr>
-
           <tr align="left">
             <th>email</th> 
             <td><a href="mailto:cschulte@kth.se"
 	        >cschulte@kth.se</a></td>
+          </tr>
+          <tr align="left">
+            <th>ORCID</th> 
+            <td><a href="http://orcid.org/0000-0002-6283-7004"
+	        >0000-0002-6283-7004</td>
           </tr>
         </table>
 

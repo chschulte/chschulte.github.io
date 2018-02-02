@@ -1,12 +1,37 @@
-HTML = index.html contact.html bio.html presentations.html
+HTML = \
+	index.html contact.html bio.html software.html \
+	presentations.html presentations-year.html presentations-type.html \
+	education.html education-full.html \
+	papers.html papers-year.html papers-type.html \
+	projects/cocoprop.html projects/unison.html
 
+CONV = iconv -f ISO-8859-1 -t UTF-8
 all: $(HTML)
 
 clean:
 	rm -rf $(HTML)
 
-install:
+install: all
 	cp -f $(HTML) ..
 
+presentations-year.html: src/presentations.php src/defaults.php
+	php -f $< opt=year | $(CONV) > $@
+
+presentations-type.html: src/presentations.php src/defaults.php
+	php -f $< opt=type | $(CONV) > $@
+
+education-full.html: src/education.php src/defaults.php
+	php -f $< full=1 | $(CONV) > $@
+
+papers-year.html: src/papers.php src/defaults.php
+	php -f $< opt=year | $(CONV) > $@
+
+papers-type.html: src/papers.php src/defaults.php
+	php -f $< opt=type | $(CONV) > $@
+
+
 %.html: src/%.php src/defaults.php
-	php $< > $@
+	php -f $< | $(CONV) > $@
+
+projects/%.html: src/projects/%.php src/defaults.php
+	php -f $< | $(CONV) > $@
