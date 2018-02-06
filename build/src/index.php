@@ -17,7 +17,7 @@
     >School of Electrical Engineering and Computer Science</a>,
     <a href="http://www.kth.se/"
     >KTH Royal Institute of Technology</a> in
-    Stockholm, Sweden. He is a member of the <a href="http://www.kth.se/ict/mcs">Model-based Computing Systems (MCS)</a> research group. He is also program director for the graduate program "Information and Communication Technology".
+    Stockholm, Sweden. He is a member of the <a href="https://www.kth.se/scs/mcs">Model-based Computing Systems (MCS)</a> research group. He is also program director for the graduate program "Information and Communication Technology".
     </p>
 
     <p>
