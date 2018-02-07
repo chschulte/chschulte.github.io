@@ -81,13 +81,13 @@ foreach ($courses as $code => $info) {
          }
       } 
       $text = $time . ", " . $c["role"];
-      if (file_exists("$docroot/$evalf1")) {
+      if (file_exists("$docroot/../../$evalf1")) {
          $text = $text . " [<a href=\"$evalf1\">evaluation</a>]";
       }
-      if (file_exists("$docroot/$evalf2")) {
+      if (file_exists("$docroot/../../$evalf2")) {
          $text = $text . " [<a href=\"$evalf2\">evaluation</a>]";
       }
-      if (file_exists("$docroot/$evalf3")) {
+      if (file_exists("$docroot/../../$evalf3")) {
          $text = $text . " [<a href=\"$evalf3\">evaluation</a>]";
       }
       print "<br />" . $text;
