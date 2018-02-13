@@ -8,6 +8,13 @@ $ROLE_HR = "Reviewer, habilitation";
 $external =
 array(
       array(
+      "name"   => "Elias Castegren",
+      "title"  => "Capability-Based Type Systems for Concurrency Control",
+      "date"   => array(9,2,2018),
+      "where"  => "Uppsala University, Department of Information Technology, Uppsala, Sweden",
+      "role"   => $ROLE_PHD),
+
+      array(
       "name"   => "Charlotte Truchet",
       "title"  => "Towards a less constrained constraint programming",
       "date"   => array(30,11,2017),
