@@ -64,6 +64,9 @@ Swedish Research Council (VR), 624-2013-6330, 2013. Volume: 60 KSEK, role: grant
 
 
     <ul>
+    <li>Invited lecturer, The Solver Side of Constraint Programming.
+<a href="http://school.a4cp.org/summer2018/">ACP Summerschool 2018</a>, Jackson, WY, USA. June 2018
+    </li>
     <li>Co-organizer, ACP Summer School 2011: Hybrid Methods for Constraint Programming, Turunç, Turkey,
        June/July 2011.
     </li>

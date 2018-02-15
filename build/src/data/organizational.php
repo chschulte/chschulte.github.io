@@ -21,6 +21,7 @@ array(
             array("year"  => 2018,
                   "month" => "JUN",
                   "role"  => $R_PCM,
+                  "url"   => "https://conf.researchr.org/home/LCTES-2018",
 		  "place" => "Philadelphia, PA, USA"),
             array("year"  => 2017,
                   "month" => "JUN",
