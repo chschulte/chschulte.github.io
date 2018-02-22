@@ -190,6 +190,73 @@ $AAAI_COPY = "Copyright &copy by <a href=\"http://www.aaai.org\">American Associ
       
 $papers =
 array(
+#      "CastanedaSchulte:CSUR:2018" =>
+#      array("type" =>        "article",
+#            "journal" =>     "Computing Surveys",
+#	    "year" =>        2018,
+#	    "publisher" =>   $ACM,
+#	    "author" =>      array("castaneda","schulte"),
+#            "affiliation" => "KTH",
+#            "toappear"        => 1,
+#	    "title" =>       "Survey on Combinatorial Register Allocation and Instruction Scheduling",
+#	    "abstract" =>    <<<EOA
+#<p>    
+#  Register allocation (mapping variables to processor registers or
+#  memory) and instruction scheduling (reordering instructions to
+#  increase instruction-level parallelism) are essential tasks for
+#  generating efficient assembly code in a compiler.
+#  In the last three decades, combinatorial optimization has emerged as
+#  an alternative to traditional, heuristic algorithms for these two
+#  tasks.
+#  Combinatorial optimization approaches can deliver optimal solutions
+#  according to a model, can precisely capture trade-offs between
+#  conflicting decisions, and are more flexible at the expense of
+#  increased compilation time.
+#</p>
+#<p>
+#  This paper provides an exhaustive literature review and a
+#  classification of combinatorial optimization approaches to register
+#  allocation and instruction scheduling, with a focus on the
+#  techniques that are most applied in this context: integer
+#  programming, constraint programming, partitioned Boolean quadratic
+#  programming, and enumeration.
+#  Researchers in compilers and combinatorial optimization can benefit
+#  from identifying developments, trends, and challenges in the area;
+#  compiler practitioners may discern opportunities and grasp the
+#  potential benefit of applying combinatorial optimization.
+#</p>
+#EOA
+#	    ),
+#
+#      "LeeSchulteEa:AIJ:2018" =>
+#      array("type" =>        "article",
+#            "journal" =>     "Artificial Intelligence",
+#	    "year" =>        2018,
+#	    "publisher" =>   "Elsevier",
+#	    "author" =>      array("lee","schulte","zhu"),
+#            "affiliation" => "KTH",
+#            "toappear"        => 1,
+#	    "title" =>       "Increasing Nogoods",
+#	    "abstract" =>    <<<EOA
+#<p>    
+#  Nogoods are widely used in constraint programming to prune
+#  infeasible parts of the search space.
+#  Quite often, a large number of nogoods is generated, proliferating the constraint propagation engine with numerous weak propagators.
+#We introduce the property of increasing on a sequence of nogoods and prove that nogoods generated in Symmetry Breaking During Search (SBDS) and its variants as well as reduced nld-nogoods extracted
+#from restart-based search satisfy the increasing property. We also introduce an efficient approximation to
+#nogood minimization such that all shortened reduced nld-nogoods from the same restart are also increasing. A global constraint for a sequence of
+#  increasing nogoods, incNGs, is proposed.
+#  Reasoning globally with increasing nogoods allows for a more compact data representation and extra pruning.
+#  An efficient
+#   GAC algorithm of incNGs and also its incremental version are given.
+# A lightweight filtering algorithm for incNGs in the context of restart-based search using dynamic event sets (dynamic subscriptions) is further presented. We show formally that the lightweight version enforces GAC on individual
+#nogoods while reducing the number of subscribed decisions.
+#Extensive experimentation demonstrates how incNGs can increase
+#propagation and speed up search compared to existing state-of-the-art techniques.
+#</p>
+#EOA
+#	    ),
+#
       "CorcoranAndimehEa:CNSM:2017" =>
       array("type" =>        "conference",
 	    "title" =>       "Data Driven Selection of DRX for Energy Efficient 5G RAN",
@@ -200,8 +267,9 @@ array(
             "affiliation" => "KTH",
             "copyright" =>   $IEEE_COPY,
 	    "author" =>      array("corcoran","andimeh","ermedahl","kreuger","schulte"),
-            "toappear" => 1,
+            "pages" =>       array(1,9),
             "selected" => 1,
+	    "DOI" =>         "10.23919/CNSM.2017.8255972", 
 	    "abstract" =>    <<<EOA
 <p>
 The number of connected mobile devices is increasing rapidly with more than 10 billion expected by 2022. Their total aggregate energy consumption poses a significant concern to society. The current 3gpp (3rd Generation Partnership Project) LTE/LTE-Advanced standard incorporates an energy saving technique called discontinuous reception (DRX). It is expected that 5G will use an evolved variant of this scheme. In general, the single selection of DRX parameters per device is non trivial. This paper describes how to improve energy efficiency of mobile devices by selecting DRX based on the traffic profile per device. Our particular approach uses a two phase data-driven strategy which tunes the selection of DRX parameters based on a smart fast energy model. The first phase involves the off-line selection of viable DRX combinations for a particular traffic mix. The second phase involves an on-line selection of DRX from this viable list. The method attempts to guarantee that latency is not worse than a chosen threshold. Alternatively, longer battery life for a device can be traded against increased latency. We built a live prototype of the system in our lab in order to verify that the technique works and scales on a real LTE system. We also designed a sophisticated traffic generator based on actual user data traces. Complementary method verification has been made by exhaustive off-line simulations on recorded LTE network data. Finally we managed to show significant device energy saving using our approach, which has the aggregated potential over billions of devices, to make a real contribution to green, energy efficient networks.
@@ -216,10 +284,13 @@ EOA
 	    "journal" =>     $TECS,
 	    "publisher" =>   $ACM,
 	    "year" =>        2017,
-            "toappear" => 1,
+            "month" =>       "OCT",
+            "volume" =>      16,
+            "issue" =>       "5s",
 	    "author" =>      array("ghb","carlsson","castaneda","schulte"),
             "copyright" =>   ACM_COPY("2017"),
             "affiliation" => "KTH",
+            "DOI" =>         "10.1145/3126528",
 	    "abstract" =>    <<<EOA
 <p>    
 In code generation, instruction selection chooses processor instructions to implement a program under compilation
@@ -282,7 +353,6 @@ EOA
 
       "HjortBlindellCastanedaEa:CP:2015" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("Gilles Pesant"),
 	    "booktitle" =>   "Twentyfirst International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2015,
@@ -342,7 +412,6 @@ EOA
 	    "publisher" =>   $SPR,
             "series" =>      $LNCS,
             "copyright" =>   $LNCS_COPY,
-            "selected" => 1,
             "title" => "View-based Propagator Derivation",
 	    "author" =>    array("schulte","tack"),
             "pages" =>       array(938,942),
@@ -714,7 +783,6 @@ EOA
 
       "CastanedaSchulteWahlberg:CP:2010" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("David Cohen"),
 	    "booktitle" =>   "Sixteenth International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2010,
@@ -1229,7 +1297,6 @@ EOA
 
       "SchulteStuckey:PPDP:2008" =>
       array("type" =>        "conference",
-            "selected" => 1,
 	    "title" =>       "Dynamic Variable Elimination During Propagation Solving",
 	    "editor" =>      array("Sergio Antoy"),
 	    "booktitle" =>   "Tenth International ACM SIGPLAN Symposium on Principles and Practice of Declarative Programming",
@@ -1511,7 +1578,6 @@ EOA
 
       "SchulteStuckey:TOPLAS:2005" =>
       array("type" =>        "article",
-            "selected" => 1,
 	    "title" =>       "When Do Bounds and Domain Propagation Lead to the Same Search Space?",
 	    "journal" =>     $TOPLAS,
 	    "year" =>        2005,

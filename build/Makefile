@@ -30,6 +30,11 @@ papers-year.html: src/papers.php src/defaults.php
 papers-type.html: src/papers.php src/defaults.php
 	php -f $< opt=type | $(CONV) > $@
 
+schulte.bib: src/publist.php src/defaults.php src/data/papers.php
+	php -f $< > $@
+
+schulte.tex: src/texlist.php src/defaults.php src/data/papers.php
+	php -f $< > $@
 
 %.html: src/%.php src/defaults.php
 	php -f $< | $(CONV) > $@
