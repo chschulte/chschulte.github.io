@@ -198,6 +198,7 @@ array(
 	    "author" =>      array("castaneda","schulte"),
             "affiliation" => "KTH",
             "toappear"        => 1,
+            "selected" => 1,
 	    "title" =>       "Survey on Combinatorial Register Allocation and Instruction Scheduling",
 	    "abstract" =>    <<<EOA
 <p>    
