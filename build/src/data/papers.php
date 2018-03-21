@@ -190,44 +190,44 @@ $AAAI_COPY = "Copyright &copy by <a href=\"http://www.aaai.org\">American Associ
       
 $papers =
 array(
-#      "CastanedaSchulte:CSUR:2018" =>
-#      array("type" =>        "article",
-#            "journal" =>     "Computing Surveys",
-#	    "year" =>        2018,
-#	    "publisher" =>   $ACM,
-#	    "author" =>      array("castaneda","schulte"),
-#            "affiliation" => "KTH",
-#            "toappear"        => 1,
-#	    "title" =>       "Survey on Combinatorial Register Allocation and Instruction Scheduling",
-#	    "abstract" =>    <<<EOA
-#<p>    
-#  Register allocation (mapping variables to processor registers or
-#  memory) and instruction scheduling (reordering instructions to
-#  increase instruction-level parallelism) are essential tasks for
-#  generating efficient assembly code in a compiler.
-#  In the last three decades, combinatorial optimization has emerged as
-#  an alternative to traditional, heuristic algorithms for these two
-#  tasks.
-#  Combinatorial optimization approaches can deliver optimal solutions
-#  according to a model, can precisely capture trade-offs between
-#  conflicting decisions, and are more flexible at the expense of
-#  increased compilation time.
-#</p>
-#<p>
-#  This paper provides an exhaustive literature review and a
-#  classification of combinatorial optimization approaches to register
-#  allocation and instruction scheduling, with a focus on the
-#  techniques that are most applied in this context: integer
-#  programming, constraint programming, partitioned Boolean quadratic
-#  programming, and enumeration.
-#  Researchers in compilers and combinatorial optimization can benefit
-#  from identifying developments, trends, and challenges in the area;
-#  compiler practitioners may discern opportunities and grasp the
-#  potential benefit of applying combinatorial optimization.
-#</p>
-#EOA
-#	    ),
-#
+      "CastanedaSchulte:CSUR:2018" =>
+      array("type" =>        "article",
+            "journal" =>     "Computing Surveys",
+	    "year" =>        2018,
+	    "publisher" =>   $ACM,
+	    "author" =>      array("castaneda","schulte"),
+            "affiliation" => "KTH",
+            "toappear"        => 1,
+	    "title" =>       "Survey on Combinatorial Register Allocation and Instruction Scheduling",
+	    "abstract" =>    <<<EOA
+<p>    
+  Register allocation (mapping variables to processor registers or
+  memory) and instruction scheduling (reordering instructions to
+  increase instruction-level parallelism) are essential tasks for
+  generating efficient assembly code in a compiler.
+  In the last three decades, combinatorial optimization has emerged as
+  an alternative to traditional, heuristic algorithms for these two
+  tasks.
+  Combinatorial optimization approaches can deliver optimal solutions
+  according to a model, can precisely capture trade-offs between
+  conflicting decisions, and are more flexible at the expense of
+  increased compilation time.
+</p>
+<p>
+  This paper provides an exhaustive literature review and a
+  classification of combinatorial optimization approaches to register
+  allocation and instruction scheduling, with a focus on the
+  techniques that are most applied in this context: integer
+  programming, constraint programming, partitioned Boolean quadratic
+  programming, and enumeration.
+  Researchers in compilers and combinatorial optimization can benefit
+  from identifying developments, trends, and challenges in the area;
+  compiler practitioners may discern opportunities and grasp the
+  potential benefit of applying combinatorial optimization.
+</p>
+EOA
+	    ),
+
 #      "LeeSchulteEa:AIJ:2018" =>
 #      array("type" =>        "article",
 #            "journal" =>     "Artificial Intelligence",
