@@ -1,4 +1,5 @@
 PAPERS = \
+papers/castanedacarlssonea-ccor-2018.html papers/bibtex-castanedacarlssonea-ccor-2018.html \
 papers/castanedaschulte-csur-2018.html papers/bibtex-castanedaschulte-csur-2018.html \
 papers/corcoranandimehea-cnsm-2017.html papers/bibtex-corcoranandimehea-cnsm-2017.html \
 papers/hjortblindellcarlssonea-tecs-2017.html papers/bibtex-hjortblindellcarlssonea-tecs-2017.html \
@@ -64,6 +65,10 @@ papers/schultesmolka-ilps-1994.html papers/bibtex-schultesmolka-ilps-1994.html \
 papers/schultesmolkawuertz-ppcp-1994.html papers/bibtex-schultesmolkawuertz-ppcp-1994.html \
 papers/schulte-master-1992.html papers/bibtex-schulte-master-1992.html \
 
+papers/castanedacarlssonea-ccor-2018.html: src/paper.php src/defaults.php
+	php -f src/paper.php id=CastanedaCarlssonEa:CCoR:2018 | $(CONV) > papers/castanedacarlssonea-ccor-2018.html
+papers/bibtex-castanedacarlssonea-ccor-2018.html: src/bibtex.php src/defaults.php
+	php -f src/bibtex.php id=CastanedaCarlssonEa:CCoR:2018 | $(CONV) > papers/bibtex-castanedacarlssonea-ccor-2018.html
 papers/castanedaschulte-csur-2018.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=CastanedaSchulte:CSUR:2018 | $(CONV) > papers/castanedaschulte-csur-2018.html
 papers/bibtex-castanedaschulte-csur-2018.html: src/bibtex.php src/defaults.php

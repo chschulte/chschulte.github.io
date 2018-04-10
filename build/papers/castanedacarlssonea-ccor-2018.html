@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+	<meta name="author" content="Christian Schulte" />
+	<link rel="stylesheet" type="text/css" 
+              href="https://chschulte.github.io/style.css" title="1024px" media="screen,projection" />
+	<title>Christian Schulte: Papers</title>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <p id="toplinks">[<a href="#content">content</a> | 
+<a href="#sidebar">navigation</a> |                      <a href="#footer">footer</a>]
+    </p>
+    <h1>Papers</h1>
+    <p id="slogan">Christian Schulte</p>
+  </div>
+<div id="sidebar"><h2>information</h2><ul><li><a href="https://chschulte.github.io/index.html">main</a></li><li><a href="https://chschulte.github.io/contact.html">contact</a></li><li><a href="https://chschulte.github.io/papers.html">papers</a></li><li><a href="https://chschulte.github.io/software.html">software</a></li><li><a href="https://chschulte.github.io/education.html">education</a></li><li><a href="https://chschulte.github.io/presentations.html">presentations</a></li><li><a href="https://chschulte.github.io/bio.html">short bio</a></li></ul><h2>options</h2><ul>
+<li><a href="papers.html">selected</a></li>
+<li><a href="papers-year.html">by year</a></li>
+<li><a href="papers-type.html">by type</a></li>
+</ul></div>
+<div id="content">
+
+  <h2>Combinatorial Register Allocation and Instruction Scheduling</h2>
+
+  <p><a href="http://www.sics.se/~rcas/">Roberto Castañeda Lozano</a>, <a href="http://www.sics.se/~matsc/">Mats Carlsson</a>, <a href="http://web.ict.kth.se/~ghb/">Gabriel Hjort Blindell</a>, <a href="https://chschulte.github.io/">Christian Schulte</a>.</p>
+
+  <p>
+  [<a href="http://arxiv.org/abs/1804.02452">more</a> | <a href="bibtex-castanedacarlssonea-ccor-2018.html">bibtex</a>]
+  </p>
+
+  <p>	     
+This paper introduces a combinatorial optimization approach to register allocation and instruction scheduling, two central compiler problems.
+Combinatorial optimization has the potential to solve these problems optimally and to exploit processor-specific features readily. Our approach is the first to leverage this potential in practice: it captures the complete set of program transformations used in state-of-the-art compilers, scales to medium-sized functions of up to 1000 instructions, and generates executable code. This level of practicality is reached by using constraint programming, a particularly suitable combinatorial optimization technique. Unison, the implementation of our approach, is open source, used in industry, and integrated with the LLVM toolchain.
+</p>
+<p>
+An extensive evaluation of estimated speed, code size, and scalability confirms that Unison generates better code than LLVM while scaling to medium-sized functions. The evaluation uses systematically selected benchmarks from MediaBench and SPEC CPU2006 and different processor architectures (Hexagon, ARM, MIPS). Mean estimated speedup ranges from 1% to 9.3% and mean code size reduction ranges from 0.8% to 3.9% for the different architectures.
+Executing the generated code on Hexagon confirms that the estimated speedup indeed results in actual speedup. Given a fixed time limit, Unison solves optimally functions of up to 647 instructions, delivers improved solutions for functions of up to 874 instructions, and achieves more than 85% of the potential speed for 90% of the functions on Hexagon.
+</p>
+<p>
+The results in this paper show that our combinatorial approach can be used in practice to trade compilation time for code quality beyond the usual compiler optimization levels, fully exploit processor-specific features, and identify improvement opportunities in existing heuristic algorithms.
+</p>
+  <p>
+  <b>CoRR entry</b>, 2018.  </p>
+
+</div>
+
+
+  <div id="footer">
+    &copy; 2009 <a href="https://chschulte.github.io/">Christian Schulte</a> (Fri Feb 2 14:19:13 2018) |
+    original design by <a href="http://andreasviklund.com/"
+    >Andreas Viklund</a>
+  </div>
+
+</div>
+</body>
+</html>
