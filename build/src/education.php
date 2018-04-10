@@ -212,7 +212,7 @@ EOT
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-9511">Techniques for Efficient Constraint Propagation</a>. Licentiate degree, 2008.
          </div>
      </li>
-     <li><a href="http://www.hshl.de/vita-prof-dr-rene-krenz-baath"
+     <li><a href="https://www.hshl.de/personen/prof-dr-rené-krenz-baath"
          >René Krenz-Bååth</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
