@@ -195,6 +195,7 @@ array(
             "title" => "Combinatorial Register Allocation and Instruction Scheduling",
 	    "year" =>     2018,
             "month" => "APR",
+            "selected" => 1,
             "link" =>        "http://arxiv.org/abs/1804.02452",
 	    "author" =>    array("castaneda","carlsson","ghb","schulte"),
 	    "abstract" => <<<EOA
