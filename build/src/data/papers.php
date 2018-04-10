@@ -198,6 +198,7 @@ array(
 	    "author" =>      array("castaneda","schulte"),
             "affiliation" => "KTH",
             "toappear"        => 1,
+            "selected" => 1,
 	    "title" =>       "Survey on Combinatorial Register Allocation and Instruction Scheduling",
 	    "abstract" =>    <<<EOA
 <p>    
@@ -394,7 +395,6 @@ EOA
             "month" => "SEP",
             "link" =>        "http://arxiv.org/abs/1409.7628",
 	    "author" =>    array("castaneda","schulte"),
-            "selected" => 1,
 	    "abstract" => <<<EOA
 <p>	     
 Register allocation and instruction scheduling are two central compiler back-end problems that are critical for quality. In the last two decades, combinatorial optimization has emerged as an alternative approach to traditional, heuristic algorithms for these problems. Combinatorial approaches are generally slower but more flexible than their heuristic counterparts and have the potential to generate optimal code. This paper surveys existing literature on combinatorial register allocation and instruction scheduling. The survey covers approaches that solve each problem in isolation as well as approaches that integrate both problems. The latter have the potential to generate code that is globally optimal by capturing the trade-off between conflicting register allocation and instruction scheduling decisions.

@@ -1,6 +1,5 @@
 PAPERS = \
 papers/castanedaschulte-csur-2018.html papers/bibtex-castanedaschulte-csur-2018.html \
-papers/leeschulteea-aij-2018.html papers/bibtex-leeschulteea-aij-2018.html \
 papers/corcoranandimehea-cnsm-2017.html papers/bibtex-corcoranandimehea-cnsm-2017.html \
 papers/hjortblindellcarlssonea-tecs-2017.html papers/bibtex-hjortblindellcarlssonea-tecs-2017.html \
 papers/scottflenerea-cpaior-2017.html papers/bibtex-scottflenerea-cpaior-2017.html \
@@ -69,10 +68,6 @@ papers/castanedaschulte-csur-2018.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=CastanedaSchulte:CSUR:2018 | $(CONV) > papers/castanedaschulte-csur-2018.html
 papers/bibtex-castanedaschulte-csur-2018.html: src/bibtex.php src/defaults.php
 	php -f src/bibtex.php id=CastanedaSchulte:CSUR:2018 | $(CONV) > papers/bibtex-castanedaschulte-csur-2018.html
-papers/leeschulteea-aij-2018.html: src/paper.php src/defaults.php
-	php -f src/paper.php id=LeeSchulteEa:AIJ:2018 | $(CONV) > papers/leeschulteea-aij-2018.html
-papers/bibtex-leeschulteea-aij-2018.html: src/bibtex.php src/defaults.php
-	php -f src/bibtex.php id=LeeSchulteEa:AIJ:2018 | $(CONV) > papers/bibtex-leeschulteea-aij-2018.html
 papers/corcoranandimehea-cnsm-2017.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=CorcoranAndimehEa:CNSM:2017 | $(CONV) > papers/corcoranandimehea-cnsm-2017.html
 papers/bibtex-corcoranandimehea-cnsm-2017.html: src/bibtex.php src/defaults.php
