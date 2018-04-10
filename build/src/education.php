@@ -170,7 +170,7 @@ EOT
      <li><a href="https://www.kth.se/profile/ghb/">Gabriel Hjort Blindell</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
-         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-223599"></a>. Doctoral degree, 2018.
+         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-223599">Universal Instruction Selection</a>. Doctoral degree, 2018.
          </div>
      </li>
      <li><a href="https://www.kth.se/profile/kalavri/">Vasiliki Kalavri</a>, 
