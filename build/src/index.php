@@ -55,7 +55,6 @@
     <h2>Current Activities</h2>
 
     <ul>
-    <li>Program committee member, <a href="http://frederic.loulergue.eu/PAPP2018">PAPP 2018</a>, Technical Track of <a href="http://www.sigapp.org/sac/sac2018/">ACM SAC</a>, Pau, France. April 2018.</li>
     <li>Teacher, <a href="http://school.a4cp.org/summer2018/">ACP Summerschool 2018</a>, Jackson, WY, USA. June 2018.</li>
     <li>Program committee member, <a href="https://conf.researchr.org/home/LCTES-2018">LCTES 2018</a>, Philadelphia, PA, USA. June 2018.</li>
     <li>Senior program committee member, <a href="http://ijcai-18.org/">IJCAI-ECAI-2018</a>, Stockholm, Sweden. July 2018.</li>
