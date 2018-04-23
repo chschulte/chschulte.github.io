@@ -82,8 +82,9 @@
     <li><a href="https://www.kth.se/student/kurser/kurs/ID2205?l=en"
         >Individual Advanced Studies in Software Systems (ID2205)</a>
         <br>
-        Please
-        <a href="contact.html">contact me</a> if you are interested.
+        Please find a potential supervisor first and then both
+        supervisor and student should <a
+        href="contact.html">contact me</a>.
     </li>
     </ul>
 
