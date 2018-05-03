@@ -151,7 +151,7 @@ array(
             array("year"  => 2018,
                   "month" => "SEP",
                   "role"  => $R_PCM,
-                  "url"   => "https://www.softconf.com/i/cases2018",
+                  "url"   => "https://www.esweek.org/cases/",
 		  "place" => "Turin, Italy"))),
 
       "CPAIOR" =>

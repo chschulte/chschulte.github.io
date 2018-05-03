@@ -59,7 +59,7 @@
     <li>Program committee member, <a href="https://conf.researchr.org/home/LCTES-2018">LCTES 2018</a>, Philadelphia, PA, USA. June 2018.</li>
     <li>Senior program committee member, <a href="http://ijcai-18.org/">IJCAI-ECAI-2018</a>, Stockholm, Sweden. July 2018.</li>
     <li>Program committee member, <a href="http://cp2018.a4cp.org/">CP 2018</a>, Lille, France. August 2018.</li>
-    <li>Program committee member, <a href="https://www.softconf.com/i/cases2018">CASES 2018</a>, Turin, Italy. September/October 2018.</li>
+    <li>Program committee member, <a href="https://www.esweek.org/cases/">CASES 2018</a>, Turin, Italy. September/October 2018.</li>
     </ul>
 
 
