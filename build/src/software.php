@@ -6,7 +6,32 @@
 <div id="content">
 
 <p class="navig">
-[<a href="#gecode">gecode</a> | <a href="#mozart">mozart</a>]
+[<a href="#unison">Unison</a> | <a href="#gecode">Gecode</a> | <a href="#mozart">Mozart</a>]
+</p>
+
+<h2 id="unison">Unison</h2>
+
+<a href="https://unison-code.github.io/"
+  ><img class="right"
+        alt="Unison Logo"
+        src="images/unison.png"
+  /></a>
+
+<p> 
+I am leading the development of <a
+href="https://unison-code.github.io/">Unison</a>.  Unison is a
+simple, flexible, and potentially optimal tool that performs
+integrated register allocation and instruction scheduling using
+constraint programming as a modern method for combinatorial
+optimization.
+</p> 
+
+<p>
+Unison is a collaboration between KTH, RISE SICS, and Ericsson.
+Its design and development has been partially funded by KTH,
+Ericsson AB, and the Swedish Research Council (VR 621-2011-6229).
+Please check out a post on Ericsson's research blog about <a
+href="https://www.ericsson.com/research-blog/outperforming-state-art-compilers-unison/">Unison</a>.
 </p>
 
 <h2 id="gecode">Gecode</h2>
