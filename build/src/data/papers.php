@@ -208,6 +208,7 @@ array(
             "affiliation" => "KTH",
 	    "title" =>       "Making Compact-Table Compact",
             "toappear" => 1,
+            "selected" => 1,
 	    "abstract" =>    <<<EOA
 <p>    
   The compact-table propagator for table constraints appears to
