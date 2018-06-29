@@ -7,7 +7,7 @@ $mstudents =
 array(
       array(
       "year"   => 2018,
-      "number" => "TRITA-ICT-EX-2018:",
+      "number" => "TRITA-ICT-EX-2018:168",
       "name"   => array("Oscar Bjuhr"),
       "title"  => "Dynamic Configuration of a Relocatable Driver and Code Generator for Continuous Deep Analytics",
       "inst"   => $ST_KTH),
