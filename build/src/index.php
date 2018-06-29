@@ -21,21 +21,17 @@
     </p>
 
     <p>
-    Christian also works as expert researcher at the <a
-    href="http://www.sics.se/csl">Computer Systems Laboratory</a>
-    of the <a href="http://www.sics.se/">Swedish Institute of
-    Computer Science (RISE SICS)</a>.
-    </p>
-
-
-    <p>
     Before joining KTH in 2002, he got a diploma in computer
     science (with a minor in mathematics) from
     the University of Karlsruhe, Germany (1992), worked as a researcher
     and project leader at the German Research Center for Artificial
     Intelligence (DFKI) (1992-1997) and as a researcher at
     Saarland University, Germany (1997-2002), from which he also obtained
-    a doctoral degree in engineering (2001). At KTH, he earned a docent degree in computer systems in 2009.
+    a doctoral degree in engineering (2001). At KTH, he earned a docent degree in computer systems in 2009. Christian also worked as an expert researcher at RISE SICS (2010-2018).
+    </p>
+
+
+
     </p>
 
     <p>
@@ -55,8 +51,6 @@
     <h2>Current Activities</h2>
 
     <ul>
-    <li>Teacher, <a href="http://school.a4cp.org/summer2018/">ACP Summerschool 2018</a>, Jackson, WY, USA. June 2018.</li>
-    <li>Program committee member, <a href="https://conf.researchr.org/home/LCTES-2018">LCTES 2018</a>, Philadelphia, PA, USA. June 2018.</li>
     <li>Senior program committee member, <a href="http://ijcai-18.org/">IJCAI-ECAI-2018</a>, Stockholm, Sweden. July 2018.</li>
     <li>Program committee member, <a href="http://cp2018.a4cp.org/">CP 2018</a>, Lille, France. August 2018.</li>
     <li>Program committee member, <a href="https://www.esweek.org/cases/">CASES 2018</a>, Turin, Italy. September/October 2018.</li>

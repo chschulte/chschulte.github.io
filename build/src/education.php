@@ -10,6 +10,7 @@
 
 <p class="navig">
 [<a href="#courses">courses</a> |
+ <a href="#postdoc">post-docs</a> |
  <a href="#doctoral">doctoral students</a> |
  <a href="#master">master students</a> |
  <a href="#bachelor">bachelor students</a>]
@@ -139,6 +140,12 @@ EOT
 ;
   }
 ?>
+
+<h2 id="postdoc">Post-doctoral Researchers</h2>
+
+<ul>
+<li>Konstantinos Koukos, KTH Royal Institute of Technology, Sweden, 2016-2017.</li>
+</ul>
 
 <h2 id="doctoral">Doctoral Students</h2>
       

@@ -6,6 +6,27 @@ $ST_PSL = "Saarland University, Germany";
 $mstudents =
 array(
       array(
+      "year"   => 2018,
+      "number" => "TRITA-ICT-EX-2018:",
+      "name"   => array("Oscar Bjuhr"),
+      "title"  => "Dynamic Configuration of a Relocatable Driver and Code Generator for Continuous Deep Analytics",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2018,
+      "number" => "TRITA-ICT-EX-2018:169",
+      "name"   => array("Patrik Karlström"),
+      "title"  => "A Systematic Approach to Automated Software Diversity using Unison",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2018,
+      "number" => "TRITA-ICT-EX-2018:172",
+      "name"   => array("William Wieweg"),
+      "title"  => "Towards Arc Consistency in PLAS",
+      "inst"   => $ST_KTH),
+
+      array(
       "year"   => 2017,
       "number" => "TRITA-ICT-EX-2017:75",
       "name"   => array("Martin Persson"),
