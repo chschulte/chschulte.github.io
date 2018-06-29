@@ -45,6 +45,10 @@ array(
       array("href" => "http://www.comp.nus.edu.sg/~henz/",
             "name" => "Martin Henz"),
 
+      "ingmar" =>
+      array("href" => "https://www.linkedin.com/in/linnea-ingmar-a4620bba/",
+            "name" => "Linnea Ingmar"),
+
       "jensen" =>
       array("href" => "http://www.itu.dk/people/rmj/",
             "name" => "Rune Møller Jensen",
@@ -190,6 +194,44 @@ $AAAI_COPY = "Copyright &copy by <a href=\"http://www.aaai.org\">American Associ
       
 $papers =
 array(
+      "IngmarSchulte:CP:2018" =>
+      array("type" =>        "conference",
+            "editor" =>      array("John Hooker"),
+	    "booktitle" =>   "Twentyforth International Conference on Principles and Practice of Constraint Programming",
+	    "year" =>        2018,
+	    "month" =>       "AUG",
+	    "address" =>     "Lille, France",
+	    "publisher" =>   $SPR,
+            "series" =>      $LNCS,
+            "copyright" =>   $LNCS_COPY,
+	    "author" =>      array("ingmar","schulte"),
+            "affiliation" => "KTH",
+	    "title" =>       "Making Compact-Table Compact",
+            "toappear" => 1,
+            "selected" => 1,
+	    "abstract" =>    <<<EOA
+<p>    
+  The compact-table propagator for table constraints appears to
+  be a strong candidate for inclusion into any constraint solver
+  due to its efficiency and simplicity. However, successful
+  integration into a constraint solver based on <em>copying</em>
+  rather than trailing is not obvious: while the underlying
+  bit-set data structure is <em>sparse</em> for efficiency it is not
+  <em>compact</em> for memory, which is essential for a copying
+  solver.
+</p>
+<p>
+  The paper introduces techniques to make compact-table an
+  excellent fit for a copying solver. The key is to make sparse
+  bit-sets <em>dynamically compact</em> (only their essential parts
+  occupy memory and their implementation is dynamically adapted
+  during search) and tables <em>shared</em> (their read-only parts
+  are shared among copies).
+Dynamically compact bit-sets reduce peak memory by 7.2% and runtime by 13.6% on average and by up to 66.3% and 33.2%. Shared tables even further reduce runtime and memory usage. The reduction in runtime exceeds the reduction in memory and a cache analysis indicates that our techniques might also be beneficial for trailing solvers. The proposed implementation has replaced Gecode's original implementations as it runs on average almost an order of magnitude faster while using half the memory.
+</p>
+EOA
+	    ),
+
       "CastanedaCarlssonEa:CCoR:2018" =>
       array("type" =>        "corr",
             "title" => "Combinatorial Register Allocation and Instruction Scheduling",
