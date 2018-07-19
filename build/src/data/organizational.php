@@ -6,6 +6,36 @@ $R_CORG = "co-organizer";
  
 $conf_org =
 array(      
+      "AAAI" =>
+      array("name" => "AAAI Conference on Artificial Intelligence",
+	    "data" => array(
+            array("year"  => 2019,
+                  "month" => "JAN",
+                  "role"  => $R_PCM,
+		  "place" => "Honolulu, HI, USA",
+		  "url"   => "http://www.aaai.org/Conferences/AAAI-19/"),
+
+            array("year"  => 2015,
+                  "month" => "JAN",
+                  "role"  => $R_PCM,
+		  "place" => "Austin, TX, USA",
+		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai15.php"),
+            array("year"  => 2010,
+                  "month" => "JUL",
+                  "role"  => $R_PCM,
+		  "place" => "Atlanta, GA, USA",
+		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai10.php"),
+            array("year"  => 2008,
+                  "month" => "JUL",
+                  "role"  => $R_PCM,
+		  "place" => "Chicago, IL, USA",
+		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai08.php"),
+            array("year"  => 2007,
+                  "month" => "JUL",
+                  "role"  => $R_PCM,
+		  "place" => "Vancouver, BC, Canada",
+		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai07.php"))),
+	
       "PAPP" =>
       array("name" => "Practical Aspects of High-Level Parallel Programming",
 	    "data" => array(
@@ -183,36 +213,6 @@ array(
 		  "place" => "Nice, France",
 		  "url"   => "http://www-sop.inria.fr/coprin/cpaior04/"))),
 
-      "AAAI" =>
-      array("name" => "AAAI Conference on Artificial Intelligence",
-	    "data" => array(
-            array("year"  => 2019,
-                  "month" => "JAN",
-                  "role"  => $R_PCM,
-		  "place" => "Honolulu, HI, USA",
-		  "url"   => "http://www.aaai.org/Conferences/AAAI-19/"),
-	    "data" => array(
-            array("year"  => 2015,
-                  "month" => "JAN",
-                  "role"  => $R_PCM,
-		  "place" => "Austin, TX, USA",
-		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai15.php"),
-            array("year"  => 2010,
-                  "month" => "JUL",
-                  "role"  => $R_PCM,
-		  "place" => "Atlanta, GA, USA",
-		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai10.php"),
-            array("year"  => 2008,
-                  "month" => "JUL",
-                  "role"  => $R_PCM,
-		  "place" => "Chicago, IL, USA",
-		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai08.php"),
-            array("year"  => 2007,
-                  "month" => "JUL",
-                  "role"  => $R_PCM,
-		  "place" => "Vancouver, BC, Canada",
-		  "url"   => "http://www.aaai.org/Conferences/AAAI/aaai07.php"))),
-	
       "ECAI" =>
       array("name" => "European Conference on Artificial Intelligence",
 	    "data" => array(
