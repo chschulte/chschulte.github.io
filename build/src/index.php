@@ -54,6 +54,7 @@
     <li>Senior program committee member, <a href="http://ijcai-18.org/">IJCAI-ECAI-2018</a>, Stockholm, Sweden. July 2018.</li>
     <li>Program committee member, <a href="http://cp2018.a4cp.org/">CP 2018</a>, Lille, France. August 2018.</li>
     <li>Program committee member, <a href="https://www.esweek.org/cases/">CASES 2018</a>, Turin, Italy. September/October 2018.</li>
+    <li>Program committee member, <a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a>, Honolulu, Hawaii, USA. January/February 2019.</li>   
     </ul>
 
 

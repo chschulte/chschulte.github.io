@@ -186,6 +186,12 @@ array(
       "AAAI" =>
       array("name" => "AAAI Conference on Artificial Intelligence",
 	    "data" => array(
+            array("year"  => 2019,
+                  "month" => "JAN",
+                  "role"  => $R_PCM,
+		  "place" => "Honolulu, HI, USA",
+		  "url"   => "http://www.aaai.org/Conferences/AAAI-19/"),
+	    "data" => array(
             array("year"  => 2015,
                   "month" => "JAN",
                   "role"  => $R_PCM,
