@@ -58,7 +58,7 @@
     </ul>
 
 
-    <h2>Teaching 2017/2018</h2>
+    <h2>Teaching 2018/2019</h2>
 
     <ul>
     <li><a href="https://www.kth.se/student/kurser/kurs/ID2202?l=en"
