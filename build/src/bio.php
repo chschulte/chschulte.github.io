@@ -111,7 +111,7 @@ foreach ($external as $i => $e) {
 
   <ul>
   <li>Member of Research Advisory Board of <a href="http://www.friartuck.net">Friar Tuck Corporation</a>, a company in constraint-based event scheduling.</li>
-  <li>Elected member of the Executive Committee of the <a href="http://slash.math.unipd.it/acp/">Association for Constraint Programming</a> (2006-2009).</li>
+  <li>Elected member of the Executive Committee of the <a href="https://www.a4cp.org/">Association for Constraint Programming</a> (2006-2009, 2019-2022).</li>
   </ul> 
 
   <h2 id="degrees">Degrees</h2>
