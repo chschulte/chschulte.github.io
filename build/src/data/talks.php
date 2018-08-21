@@ -7,6 +7,12 @@ $PSLAB  = "Programming Systems Lab, Saarland University, Saarbrücken, Germany";
    
 $talks =
 array(
+      array("title" =>   "Gecode - an open constraint solving library",
+	    "address" => "NordConsNet Workshop, Gothenburg, Sweden",
+            "slides" =>  "Gecode 2018.pdf",
+            "type"  =>   "invited",
+            "date" =>    array(29,5,2018)),
+
       array("title" =>   "Rethinking Code Generation in Compilers",
 	    "address" => "Workshop on Constraint Solvers in Testing, Verification and Analysis, Melbourne, Australia",
             "slides" =>  "Code Generation CP2017.pdf",
