@@ -153,11 +153,6 @@ EOT
      <li><a href="https://www.kth.se/profile/diarmuid/">Diarmuid Corcoran</a>, 
          KTH Royal Institute of Technology, Sweden.
      </li>
-     <li><a href="http://www.sics.se/~rcas/">Roberto Castañeda Lozano</a>, 
-         KTH Royal Institute of Technology, Sweden.
-         <div class="lit"
-         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-154599">Integrated Register Allocation and Instruction Scheduling with Constraint Programming</a>. Licentiate degree, 2014.
-         </div>
      </li>
      <li><a href="https://www.sics.se/people/akhila-rao">Akhila Rao</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
@@ -174,6 +169,14 @@ EOT
      <li><a href="https://www.kth.se/profile/dannmann/">Kathrin Rosvall</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
      </li>
+     <li><a href="http://www.sics.se/~rcas/">Roberto Castañeda Lozano</a>, 
+         KTH Royal Institute of Technology, Sweden.
+         <div class="lit"
+         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-232192">Constraint-Based Register Allocation and Instruction Scheduling</a>. Doctoral degree, 2018.
+         </div>
+         <div class="lit"
+         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-154599">Integrated Register Allocation and Instruction Scheduling with Constraint Programming</a>. Licentiate degree, 2014.
+         </div>
      <li><a href="https://www.kth.se/profile/ghb/">Gabriel Hjort Blindell</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
