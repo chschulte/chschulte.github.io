@@ -204,10 +204,12 @@ array(
 	    "publisher" =>   $SPR,
             "series" =>      $LNCS,
             "copyright" =>   $LNCS_COPY,
+            "pages" =>       array(210,218),
 	    "author" =>      array("ingmar","schulte"),
             "affiliation" => "KTH",
 	    "title" =>       "Making Compact-Table Compact",
-            "toappear" => 1,
+	    "DOI" =>         "10.1007/978-3-319-98334-9_14",
+            "volume" =>      11008, 
             "selected" => 1,
 	    "abstract" =>    <<<EOA
 <p>    

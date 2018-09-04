@@ -17,7 +17,8 @@
     >School of Electrical Engineering and Computer Science</a>,
     <a href="http://www.kth.se/"
     >KTH Royal Institute of Technology</a> in
-    Stockholm, Sweden. He is a member of the <a href="https://www.kth.se/scs/mcs">Model-based Computing Systems (MCS)</a> research group. He is also program director for the graduate program "Information and Communication Technology".
+    Stockholm, Sweden. He is a member of the <a href="https://www.kth.se/scs/mcs">Model-based Computing Systems (MCS)</a> research group. He is also program director for the graduate program "Information and Communication Technology". He is serving on the executive committee of the 
+ <a href="https://www.a4cp.org/">Association of Constraint Programming</a> (2019-2022).
     </p>
 
     <p>
@@ -51,8 +52,8 @@
     <h2>Current Activities</h2>
 
     <ul>
-    <li>Program committee member, <a href="http://cp2018.a4cp.org/">CP 2018</a>, Lille, France. August 2018.</li>
     <li>Program committee member, <a href="https://www.esweek.org/cases/">CASES 2018</a>, Turin, Italy. September/October 2018.</li>
+    <li>Program committee member, <a href="https://sites.google.com/site/mccworkshop2018/home">MCC 2018</a>, Gothenburg, Sweden. November 2018.</li>
     <li>Program committee member, <a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a>, Honolulu, Hawaii, USA. January/February 2019.</li>   
     </ul>
 
