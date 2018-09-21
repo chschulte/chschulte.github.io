@@ -153,6 +153,8 @@ EOT
      <li><a href="https://www.kth.se/profile/diarmuid/">Diarmuid Corcoran</a>, 
          KTH Royal Institute of Technology, Sweden.
      </li>
+     <li><a href="https://www.linkedin.com/in/sara-frimodig-41862690/">Sara Frimodig</a>, 
+         KTH Royal Institute of Technology, Sweden. Assistant supervisor.
      </li>
      <li><a href="https://www.sics.se/people/akhila-rao">Akhila Rao</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
@@ -177,6 +179,7 @@ EOT
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-154599">Integrated Register Allocation and Instruction Scheduling with Constraint Programming</a>. Licentiate degree, 2014.
          </div>
+     </li>
      <li><a href="https://www.kth.se/profile/ghb/">Gabriel Hjort Blindell</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
@@ -186,10 +189,10 @@ EOT
      <li><a href="https://www.kth.se/profile/kalavri/">Vasiliki Kalavri</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
          <div class="lit"
-         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-145329">Performance Optimization Techniques and Tools for Data-Intensive Computation Platforms</a>. Licentiate degree, 2014.
+         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-192471">Performance Optimization Techniques and Tools for Distributed Graph Processing</a>. Doctoral degree, 2016. Winner of the <a href="https://www.kth.se/en/ict/nyheter/nyheter/doctor-vasiliki-kalavri-wins-prestigious-award-1.765657">IBM Innovation Award 2017</a>.
          </div>
          <div class="lit"
-         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-192471">Performance Optimization Techniques and Tools for Distributed Graph Processing</a>. Doctoral degree, 2016. Winner of the <a href="https://www.kth.se/en/ict/nyheter/nyheter/doctor-vasiliki-kalavri-wins-prestigious-award-1.765657">IBM Innovation Award 2017</a>.
+         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-145329">Performance Optimization Techniques and Tools for Data-Intensive Computation Platforms</a>. Licentiate degree, 2014.
          </div>
      </li>
      <li><a href="http://www.kth.se/en/ict/2.11193/phd-katharina-rasch-1.422207">Katharina Rasch</a>,

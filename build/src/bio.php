@@ -127,7 +127,9 @@ foreach ($external as $i => $e) {
   <h2 id="work">Work Experience</h2>
 
     <ul>
-    <li>Since January 2013, program director for the graduate program "Information and Communication Technology".</li>
+    <li>Since May 2018, co-director of the
+    <a href="https://www.castor.kth.se/">CASTOR Software Research Centre</a>.</li>
+    <li>Since January 2013, program director of the doctoral program "Information and Communication Technology".</li>
     <li>Since July 2012,
      professor, <a href="http://www.kth.se/"
     >KTH Royal Institute of Technology</a>, Sweden.</li>
