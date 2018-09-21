@@ -329,7 +329,7 @@ array(
                   "month" => "NOV",
                   "role"  => "pc member",
                   "url"   => "https://sites.google.com/site/mccworkshop2018/home",
-		  "place" => "Gothenburg, Sweden")),
+		  "place" => "Gothenburg, Sweden"),
             array("year"  => 2017,
                   "month" => "DEC",
                   "role"  => "pc member",
