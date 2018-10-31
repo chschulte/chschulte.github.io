@@ -38,7 +38,7 @@
 
   <p>
     <strong>Visting address</strong>: 
-    <a href="http://www.kth.se/ict/kontakt/hitta-till-oss-1.7965">Electrum, Kistagången 16</a>, 4th floor, elevator A, room 2490.
+    <a href="https://www.kth.se/places/room/id/0b3bcd03-0821-413d-9ea3-403e3262a545">Electrum, Kistagången 16, Kista, 4th floor, elevator A, room 24116</a>.
   </p>
 
 </div>
