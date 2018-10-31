@@ -79,13 +79,15 @@
     <ul>
     <li><a href="https://www.kth.se/student/kurser/kurs/ID2202?l=en"
         >Compilers and Execution Environments (ID2202)</a>
-        (period 2)<br>
+        (period 2)
+        [<a href="https://kth.instructure.com/courses/6414">course material</a>]<br>
         The course can also be taken on doctoral level (<a href="http://www.kth.se/student/kurser/kurs/ID3006?l=en">ID3006</a>), please
         <a href="contact.html">contact me</a> if you are interested.
     </li>
     <li><a href="https://www.kth.se/student/kurser/kurs/ID2204?l=en"
         >Constraint Programming (ID2204)</a>
-        (period 4)<br>
+        (period 4)
+        [<a href="https://kth.instructure.com/courses/5275">course material</a>]<br>
         The course can also be taken on doctoral level (<a href="http://www.kth.se/student/kurser/kurs/ID3005?l=en">ID3005</a>), please
         <a href="contact.html">contact me</a> if you are interested.
     </li>
