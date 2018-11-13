@@ -153,6 +153,9 @@ EOT
      <li><a href="https://www.kth.se/profile/diarmuid/">Diarmuid Corcoran</a>, 
          KTH Royal Institute of Technology, Sweden.
      </li>
+     <li><a href="https://www.kth.se/profile/klasseg/">Klas Segeljakt</a>, 
+         KTH Royal Institute of Technology, Sweden.
+     </li>
      <li><a href="https://www.linkedin.com/in/sara-frimodig-41862690/">Sara Frimodig</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
      </li>
