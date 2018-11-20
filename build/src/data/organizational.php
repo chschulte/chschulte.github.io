@@ -48,6 +48,11 @@ array(
       "LCTES" =>
       array("name" => "ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools and Theory for Embedded Systems (LCTES)",
 	    "data" => array(
+            array("year"  => 2019,
+                  "month" => "JUN",
+                  "role"  => $R_PCM,
+                  "url"   => "https://conf.researchr.org/home/LCTES-2019",
+		  "place" => "Phoenix, AZ, USA"),
             array("year"  => 2018,
                   "month" => "JUN",
                   "role"  => $R_PCM,
