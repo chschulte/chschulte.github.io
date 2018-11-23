@@ -8,6 +8,13 @@ $ROLE_HR = "Reviewer, habilitation";
 $external =
 array(
       array(
+      "name"   => "Max Åstrand",
+      "title"  => "Short-term Underground Mine Scheduling",
+      "date"   => array(23,11,2018),
+      "where"  => "Department of Automatic Control, EECS, KTH, Sweden",
+      "role"   => $ROLE_LIC),
+
+      array(
       "name"   => "Elias Castegren",
       "title"  => "Capability-Based Type Systems for Concurrency Control",
       "date"   => array(9,2,2018),
