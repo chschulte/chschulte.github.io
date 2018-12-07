@@ -4,7 +4,7 @@ For more information, see http://andreasviklund.com/templates/1024px/
 */
 
 /* General tags */
-body {background:url(images/background.gif) repeat-y top center #fff; color:#404040; font:76% 'Noto Sans TC',sans-serif; line-height:1.3em; margin:0 auto; padding:0;}
+body {background:url(images/background.gif) repeat-y top center #fff; color:#404040; font-family: 'Noto Sans TC',sans-serif; font-size:76%; line-height:1.3em; margin:0 auto; padding:0;}
 a {color:#4088b8; font-weight:700; text-decoration:none;}
 a:hover {text-decoration:underline;}
 a img {border:0;}
