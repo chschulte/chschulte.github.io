@@ -81,11 +81,13 @@ if ($opt == "year") {
   $y = 0;
   $old = 0;
   foreach ($papers as $id => $p) {
-    if (!$old && ($p["year"] < 2005)) {
-      print "</ul>";
-      print "<h2 id=\"old\">2004-1992</h2>";
-      print "<ul>";
-      $old = 1;
+    if ($p["year"] < 2005) {
+      if (!$old) {
+        print "</ul>";
+        print "<h2 id=\"old\">2004-1992</h2>";
+        print "<ul>";
+        $old = 1;
+      }
     } else if ($p["year"] != $y) {
       if ($y) {
         print "</ul>";
