@@ -68,20 +68,26 @@ function p_paper ($id, $p) {
 
 if ($opt == "year") {
   $y = 0;
-  $l = "";
+  $l = "<a href=\"#old\">2004-1992</a>";
   foreach ($papers as $id => $p) {
-    if ($p["year"] != $y) {
-      if ($y) {
+    if ($p["year"] > 2004) {
+      if ($p["year"] != $y) {
         $l = $l . " | ";
+        $y = $p["year"];
+        $l = $l . "<a href=\"#y$y\">$y</a>";
       }
-      $y = $p["year"];
-      $l = $l . "<a href=\"#y$y\">$y</a>";
     }
   }
   print "<p class=\"navig\">[$l]</p>";
   $y = 0;
+  $old = 0;
   foreach ($papers as $id => $p) {
-    if ($p["year"] != $y) {
+    if (!$old && ($p["year"] < 2005)) {
+      print "</ul>";
+      print "<h2 id=\"old\">2004-1992</h2>";
+      print "<ul>";
+      $old = 1;
+    } else if ($p["year"] != $y) {
       if ($y) {
         print "</ul>";
       }
