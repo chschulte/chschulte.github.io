@@ -4,7 +4,7 @@ For more information, see http://andreasviklund.com/templates/1024px/
 */
 
 /* General tags */
-body {background:url(images/background.gif) repeat-y top center #fff; color:#404040; font-family: 'Noto Sans TC',sans-serif; font-size:90%; line-height:1.3em; margin:0 auto; padding:0;}
+body {background:url(images/background.gif) repeat-y top center #fff; color:#404040; font-family: 'Cabin',sans-serif; font-size:85%; line-height:1.3em; margin:0 auto; padding:0;}
 a {color:#4088b8; font-weight:600; text-decoration:none;}
 a:hover {text-decoration:underline;}
 a img {border:0;}
@@ -19,7 +19,7 @@ ul { list-style-type: square; }
 h1 {color:#4088b8; font-size:2.6em; letter-spacing:-1px; margin:0 0 10px 15px;}
 h1 a {color:#4088b8; text-transform:none;}
 h2 {border-bottom:4px solid #dadada; color:#4088b8; font-size:1.4em; letter-spacing:-1px; margin:0 0 10px; padding:0 2px 2px 5px;}
-h3 {border-bottom:1px solid #dadada; color:#4088b8; font-size:1.2em; font-weight:700; margin:10px 0 8px; padding:1px 2px 2px 3px;}
+h3 {border-bottom:1px solid #dadada; color:#4088b8; font-size:1.2em; font-weight:600; margin:10px 0 8px; padding:1px 2px 2px 3px;}
 
 /* Main wrap */
 #wrap {color:#404040; margin:10px auto; padding:0; width:970px;}
