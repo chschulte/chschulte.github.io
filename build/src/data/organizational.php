@@ -183,6 +183,11 @@ array(
       "CASES" =>
       array("name" => "International Conference on Compilers, Architecture, and Synthesis of Embedded Systems",
 	    "data" => array(
+            array("year"  => 2019,
+                  "month" => "OCT",
+                  "role"  => $R_PCM,
+                  "url"   => "https://www.esweek.org/cases/",
+		  "place" => "New York City, NY, USA"),
             array("year"  => 2018,
                   "month" => "SEP",
                   "role"  => $R_PCM,

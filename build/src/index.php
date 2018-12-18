@@ -10,7 +10,7 @@
          class="left photo" />
 
     <p>
-    Christian Schulte is a professor of computer science at the unit
+    Christian Schulte is a professor of computer science at the division
     <a href="http://www.kth.se/en/ict/forskning/scs"
     >Software and Computer Systems</a>,
     <a href="https://www.kth.se/en/eecs"
@@ -68,9 +68,9 @@
     <h2>Current Activities</h2>
 
     <ul>
-    <li>Program committee member, <a href="https://sites.google.com/site/mccworkshop2018/home">MCC 2018</a>, Gothenburg, Sweden. November 2018.</li>
     <li>Program committee member, <a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a>, Honolulu, Hawaii, USA. January/February 2019.</li>   
     <li>Program committee member, <a href="https://conf.researchr.org/home/LCTES-2019">LCTES 2019</a>, Phoenix, AZ, USA. June 2019.</li>
+    <li>Program committee member, <a href="https://esweek.org/sites/default/files/2019-CASES-cfp_0.pdf">CASES 2019</a>, New York City, NY, USA. October 2019.</li>
     </ul>
 
 
