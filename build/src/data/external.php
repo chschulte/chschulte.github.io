@@ -8,6 +8,13 @@ $ROLE_HR = "Reviewer, habilitation";
 $external =
 array(
       array(
+      "name"   => "Maxim Chabert",
+      "title"  => "Constraint Programming Models for Conceptual Clustering: Application to an ERP Configuration Problem",
+      "date"   => array(18,12,2018),
+      "where"  => "LIRIS, INSA Lyon, France",
+      "role"   => $ROLE_PHD),
+
+      array(
       "name"   => "Max Åstrand",
       "title"  => "Short-term Underground Mine Scheduling",
       "date"   => array(23,11,2018),
