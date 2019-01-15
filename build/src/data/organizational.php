@@ -72,6 +72,11 @@ array(
       "IJCAI" =>
       array("name" => "International Joint Conference on Artificial Intelligence",
 	    "data" => array(
+            array("year"  => 2019,
+                  "month" => "AUG",
+                  "role"  => $R_PCM,
+		  "place" => "Macao, China",
+		  "url"   => "http://ijcai-19.org"),
             array("year"  => 2018,
                   "month" => "JUL",
                   "role"  => $R_SPCM,

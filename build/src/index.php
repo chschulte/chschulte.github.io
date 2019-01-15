@@ -23,7 +23,7 @@
     program director for the doctoral program "Information and
     Communication Technology" and as co-director of the
     <a href="https://www.castor.kth.se/">CASTOR Software Research Centre</a>. He is
-    serving on the executive committee of the
+    serving as secretary and elected member on the executive committee of the
  <a href="https://www.a4cp.org/">Association of Constraint Programming</a> (2019-2022).
     </p>
 
@@ -61,7 +61,8 @@
      the joint KTH, RISE SICS, and Ericsson project in
      constraint-based code generation. Or how <a
      href="https://blogs.sap.com/2018/09/07/sap-leverages-gecode-an-award-winning-constraint-solver-in-s4hana-for-advanced-variant-configuration/">SAP
-     uses Gecode</a>.
+     uses Gecode</a>, also available as a
+     <a href="https://www.kth.se/en/forskning/artiklar/at-core-of-software-leader-sap-s-product-an-open-source-code-developed-at-kth-1.867376">popular science story from KTH</a>.
    </p>
 
 
@@ -71,6 +72,7 @@
     <li>Program committee member, <a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a>, Honolulu, Hawaii, USA. January/February 2019.</li>   
     <li>Program committee member, <a href="https://conf.researchr.org/home/LCTES-2019">LCTES 2019</a>, Phoenix, AZ, USA. June 2019.</li>
     <li>Program committee member, <a href="https://esweek.org/sites/default/files/2019-CASES-cfp_0.pdf">CASES 2019</a>, New York City, NY, USA. October 2019.</li>
+    <li>Program committee member, <a href="https://ijcai19.org/">IJCAI 2019</a>, Macao, China. August 2019.</li>   
     </ul>
 
 
