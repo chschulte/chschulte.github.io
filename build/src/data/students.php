@@ -6,6 +6,31 @@ $ST_PSL = "Saarland University, Germany";
 $mstudents =
 array(
       array(
+      "year"   => 2019,
+      "name"   => array("Blake Tianze Wang"),
+      "title"  => "Machine Learning for Constraint Programming",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2019,
+      "name"   => array("Jinju Joy"),
+      "title"  => "TBD",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2019,
+      "name"   => array("Tony Lundgren"),
+      "title"  => "TBD",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2018,
+      "number" => "TRITA-ICT-EX-2018:171",
+      "name"   => array("Klas Segeljakt"),
+      "title"  => "A Scala DSL for Rust code generation",
+      "inst"   => $ST_KTH),
+
+      array(
       "year"   => 2018,
       "number" => "TRITA-ICT-EX-2018:168",
       "name"   => array("Oscar Bjuhr"),
