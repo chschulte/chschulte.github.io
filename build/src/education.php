@@ -199,7 +199,7 @@ EOT
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-223599">Universal Instruction Selection</a>. Doctoral degree, 2018.
          </div>
      </li>
-     <li><a href="people.inf.ethz.ch/kalavriv/">Vasiliki Kalavri</a>, 
+     <li><a href="http://people.inf.ethz.ch/kalavriv/">Vasiliki Kalavri</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-192471">Performance Optimization Techniques and Tools for Distributed Graph Processing</a>. Doctoral degree, 2016. Winner of the <a href="https://www.kth.se/en/ict/nyheter/nyheter/doctor-vasiliki-kalavri-wins-prestigious-award-1.765657">IBM Innovation Award 2017</a>.
