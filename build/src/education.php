@@ -265,7 +265,6 @@ EOT
      </li>
      </ul>
 
-
       
      <h2 id="master">Master Students</h2>
 
