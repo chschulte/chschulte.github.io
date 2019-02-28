@@ -11,7 +11,8 @@
 <p class="navig">
 [<a href="#courses">courses</a> |
  <a href="#postdoc">post-docs</a> |
- <a href="#doctoral">doctoral students</a> |
+ <a href="#current">current doctoral students</a> |
+ <a href="#past">past doctoral students</a> |
  <a href="#master">master students</a> |
  <a href="#bachelor">bachelor students</a>]
 </p>
@@ -147,8 +148,8 @@ EOT
 <li>Konstantinos Koukos, KTH Royal Institute of Technology, Sweden, 2016-2017.</li>
 </ul>
 
-<h2 id="doctoral">Doctoral Students</h2>
-      
+<h2 id="current">Current Doctoral Students</h2>
+
      <ul>
      <li><a href="https://www.kth.se/profile/diarmuid/">Diarmuid Corcoran</a>, 
          KTH Royal Institute of Technology, Sweden.
@@ -156,13 +157,16 @@ EOT
      <li><a href="https://www.kth.se/profile/klasseg/">Klas Segeljakt</a>, 
          KTH Royal Institute of Technology, Sweden.
      </li>
-     <li><a href="https://www.linkedin.com/in/sara-frimodig-41862690/">Sara Frimodig</a>, 
-         KTH Royal Institute of Technology, Sweden. Assistant supervisor.
+     <li><a href="https://www.kth.se/profile/tsoupidi">Rodothea (Romy) Myrsini Tsoupidi</a>,
+         KTH Royal Institute of Technology, Sweden.
+     </li>
+     <li><a href="https://www.kth.se/profile/sarhal">Sara Frimodig</a>, 
+         KTH Royal Institute of Technology, Sweden. Co-supervisor.
      </li>
      <li><a href="https://www.sics.se/people/akhila-rao">Akhila Rao</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
      </li>
-     <li><a href="http://people.kth.se/~dlunde/">Daniel Lundén</a>, 
+     <li><a href="https://www.kth.se/profile/dlunde">Daniel Lundén</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
      </li>
      <li><a href="http://people.kth.se/~ugeorge/">George Ungureanu</a>, 
@@ -174,6 +178,12 @@ EOT
      <li><a href="https://www.kth.se/profile/dannmann/">Kathrin Rosvall</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
      </li>
+     </ul>
+
+
+<h2 id="past">Past Doctoral Students</h2>
+
+     <ul>
      <li><a href="http://www.sics.se/~rcas/">Roberto Castañeda Lozano</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
@@ -256,6 +266,7 @@ EOT
      </ul>
 
 
+      
      <h2 id="master">Master Students</h2>
 
 	<ul>
