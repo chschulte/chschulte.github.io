@@ -184,7 +184,7 @@ EOT
 <h2 id="past">Past Doctoral Students</h2>
 
      <ul>
-     <li><a href="http://www.sics.se/~rcas/">Roberto Castañeda Lozano</a>, 
+     <li><a href="https://www.linkedin.com/in/robcasloz/">Roberto Castañeda Lozano</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-232192">Constraint-Based Register Allocation and Instruction Scheduling</a>. Doctoral degree, 2018.
@@ -193,13 +193,13 @@ EOT
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-154599">Integrated Register Allocation and Instruction Scheduling with Constraint Programming</a>. Licentiate degree, 2014.
          </div>
      </li>
-     <li><a href="https://www.kth.se/profile/ghb/">Gabriel Hjort Blindell</a>, 
+     <li><a href="https://www.linkedin.com/in/gabriel-hjort-blindell-37407459/">Gabriel Hjort Blindell</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-223599">Universal Instruction Selection</a>. Doctoral degree, 2018.
          </div>
      </li>
-     <li><a href="https://www.kth.se/profile/kalavri/">Vasiliki Kalavri</a>, 
+     <li><a href="people.inf.ethz.ch/kalavriv/">Vasiliki Kalavri</a>, 
          KTH Royal Institute of Technology, Sweden. Assistant supervisor.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-192471">Performance Optimization Techniques and Tools for Distributed Graph Processing</a>. Doctoral degree, 2016. Winner of the <a href="https://www.kth.se/en/ict/nyheter/nyheter/doctor-vasiliki-kalavri-wins-prestigious-award-1.765657">IBM Innovation Award 2017</a>.
@@ -208,7 +208,7 @@ EOT
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-145329">Performance Optimization Techniques and Tools for Data-Intensive Computation Platforms</a>. Licentiate degree, 2014.
          </div>
      </li>
-     <li><a href="http://www.kth.se/en/ict/2.11193/phd-katharina-rasch-1.422207">Katharina Rasch</a>,
+     <li><a href="https://www.linkedin.com/in/katharina-rasch-9b5848a0/">Katharina Rasch</a>,
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-129171">Smart assistants for smart homes</a>. Doctoral degree, 2013. Co-supervisor.
@@ -232,7 +232,7 @@ EOT
   Programming. Co-supervisor.
          </div>
      </li>
-     <li><a href="http://web.ict.kth.se/~zayenz/">Mikael Lagerkvist</a>, 
+     <li><a href="https://www.linkedin.com/in/zayenz/">Mikael Lagerkvist</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-9511">Techniques for Efficient Constraint Propagation</a>. Licentiate degree, 2008.
@@ -246,7 +246,7 @@ EOT
           Co-supervisor. 
          </div>
      </li>
-     <li>Dragan Havelka, 
+     <li><a href="https://www.linkedin.com/in/dragan-havelka-5b8b992/">Dragan Havelka</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-282">Thread-based Mobility for a Distributed Dataflow Language</a>.
@@ -254,7 +254,7 @@ EOT
           Co-supervisor.
          </div>
      </li>
-     <li><a href="http://www.sics.se/~frej/"
+     <li><a href="https://www.sics.se/people/frej-drejhammar"
          >Frej Drejhammar</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
