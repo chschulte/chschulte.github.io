@@ -32,6 +32,11 @@ array(
       "flener" =>
       array("href" => "http://user.it.uu.se/~pierref/",
 	    "name" => "Pierre Flener"),
+
+      "frimodig" =>
+      array("href" => "https://www.kth.se/profile/sarhal",
+	    "name" => "Sara Frimodig"),
+
       "fruhwirth" =>
       array("href" => "http://www.informatik.uni-ulm.de/pm/mitarbeiter/fruehwirth/",
 	    "name" => "Thom Frühwirth"),
@@ -194,6 +199,32 @@ $AAAI_COPY = "Copyright &copy by <a href=\"http://www.aaai.org\">American Associ
       
 $papers =
 array(
+      "FrimodigSchulte:CPAIOR:2019" =>
+      array("type" =>        "conference",
+            "editor" =>      array("Louis-Martin Rousseau","Kostas Stergiou"),
+	    "booktitle" =>   "Sixteenth International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research",
+	    "year" =>        2019,
+	    "month" =>       "JUN",
+	    "address" =>     "Thessaloniki, Greece",
+	    "publisher" =>   $SPR,
+            "series" =>      $LNCS,
+            "copyright" =>   $LNCS_COPY,
+	    "author" =>      array("frimodig","schulte"),
+            "affiliation" => "KTH",
+	    "title" =>       "Radiation Therapy Patient Scheduling",
+            "selected" => 1,
+            "toappear" => 1,
+            "note" => "Extended Abstract",
+	    "abstract" =>    <<<EOA
+<p>    
+Radiation therapy (RT), chemotherapy and surgery are the most commonly used cancer therapies worldwide. RT treatments are generally divided into a number of occasions delivered once a day that together sum up to the planned radiation dose. The length of the daily sessions vary between patients. In this work, we use combinatorial optimization to  schedule RT patients taking future patient arrivals into account. 
+</p>
+<p>
+In this work, we develop two different models; a MIP model and a Constraint Programming (CP) model. We aim to find the optimal treatment allocation for patients in a 100 day planning horizon, while taking expected future patient arrivals into account. It is, to the best of our knowledge, the first time the radiotherapy patient scheduling problem is modeled using CP, and also the first time expected future patient arrivals are included in a MIP model. 
+</p>
+EOA
+	    ),
+
       "IngmarSchulte:CP:2018" =>
       array("type" =>        "conference",
             "editor" =>      array("John Hooker"),
