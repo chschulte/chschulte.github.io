@@ -397,8 +397,13 @@ array(
 $bstudents =
 array(
       array(
-      "hidden" => 1,
-      "year"   => 2016,
+      "year"   => 2019,
+      "name"   => array("Erik Larsson"),
+      "title"  => "TBD",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2018,
       "name"   => array("Andreas Lindmark"),
       "title"  => "A Gecode Propagator for the Contextfree Grammar Constraint",
       "inst"   => "Uppsala University, Sweden"),
