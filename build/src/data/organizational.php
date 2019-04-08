@@ -6,6 +6,14 @@ $R_CORG = "co-organizer";
  
 $conf_org =
 array(      
+      "CC" =>
+      array("name" => "International Conference on Compiler Construction",
+	    "data" => array(
+            array("year"  => 2020,
+                  "month" => "FEB",
+                  "role"  => $R_PCM,
+		  "place" => "San Diego, CA, USA"))),
+
       "AAAI" =>
       array("name" => "AAAI Conference on Artificial Intelligence",
 	    "data" => array(
