@@ -230,6 +230,12 @@ function bib_footer($id,$paper) {
 
   }
 
+  if ($paper["accepted"] != "") {
+
+    print ("   Note =      \"Accepted for publication.\",\n");
+
+  }
+
   print ("   URL =       \"" . $urlroot . "paper.php?id=" . $id . "\"\n");
 
   print "}\n\n";

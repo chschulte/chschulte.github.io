@@ -28,6 +28,9 @@ function p_paper ($id, $p) {
     print $p["journal"] . ", ";
   }
   print $p["year"] . ". ";
+  if ($p["accepted"]) {
+    print "Accepted for publication. ";
+  }
   if ($p["toappear"]) {
     print "To appear. ";
   }

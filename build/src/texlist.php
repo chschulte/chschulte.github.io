@@ -47,7 +47,9 @@ function p_paper($id,$paper) {
       print $paper["series"] . ", " . $paper["publisher"] . ", ";
       print $paper["year"];
     } else {
-      if ($paper["toappear"]) {
+      if ($paper["accepted"]) {
+	print "\\textbf{Accepted for publication in:} ";
+      } else if ($paper["toappear"]) {
 	print "\\textbf{To appear in:} ";
       } else {
 	print "\\textbf{In:} ";

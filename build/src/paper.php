@@ -75,7 +75,9 @@ page_header("Papers",$o);
       print $paper["series"] . ", " . $paper["publisher"] . ", ";
       print $paper["year"];
     } else {
-      if ($paper["toappear"]) {
+      if ($paper["accepted"]) {
+	print "<b>Accepted for publication in:</b> ";
+      } else if ($paper["toappear"]) {
 	print "<b>To appear in:</b> ";
       } else {
 	print "<b>In:</b> ";

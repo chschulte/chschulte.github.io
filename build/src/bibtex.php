@@ -169,6 +169,9 @@ function bib_footer() {
   if ($paper["toappear"] != "") {
     print ("   Note =      \"To appear.\",\n");
   }
+  if ($paper["accepted"] != "") {
+    print ("   Note =      \"Accepted for publication.\",\n");
+  }
   if ($paper["DOI"] != "") {
      print ("   DOI =       \"" . $paper["DOI"] . "\",\n");
   }

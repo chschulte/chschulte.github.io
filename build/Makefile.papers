@@ -1,4 +1,5 @@
 PAPERS = \
+papers/castanedacarlssonea-toplas-2019.html papers/bibtex-castanedacarlssonea-toplas-2019.html \
 papers/frimodigschulte-cpaior-2019.html papers/bibtex-frimodigschulte-cpaior-2019.html \
 papers/ingmarschulte-cp-2018.html papers/bibtex-ingmarschulte-cp-2018.html \
 papers/castanedacarlssonea-ccor-2018.html papers/bibtex-castanedacarlssonea-ccor-2018.html \
@@ -67,6 +68,10 @@ papers/schultesmolka-ilps-1994.html papers/bibtex-schultesmolka-ilps-1994.html \
 papers/schultesmolkawuertz-ppcp-1994.html papers/bibtex-schultesmolkawuertz-ppcp-1994.html \
 papers/schulte-master-1992.html papers/bibtex-schulte-master-1992.html \
 
+papers/castanedacarlssonea-toplas-2019.html: src/paper.php src/defaults.php
+	php -f src/paper.php id=CastanedaCarlssonEa:TOPLAS:2019 | $(CONV) > papers/castanedacarlssonea-toplas-2019.html
+papers/bibtex-castanedacarlssonea-toplas-2019.html: src/bibtex.php src/defaults.php
+	php -f src/bibtex.php id=CastanedaCarlssonEa:TOPLAS:2019 | $(CONV) > papers/bibtex-castanedacarlssonea-toplas-2019.html
 papers/frimodigschulte-cpaior-2019.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=FrimodigSchulte:CPAIOR:2019 | $(CONV) > papers/frimodigschulte-cpaior-2019.html
 papers/bibtex-frimodigschulte-cpaior-2019.html: src/bibtex.php src/defaults.php
