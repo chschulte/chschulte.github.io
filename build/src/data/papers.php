@@ -204,6 +204,8 @@ array(
             "title" => "Combinatorial Register Allocation and Instruction Scheduling",
 	    "year" =>  2019,
             "month" => "APR",
+	    "journal" =>     $TOPLAS,
+	    "publisher" =>   $ACM,
             "selected" => 1,
 	    "author" =>    array("castaneda","carlsson","ghb","schulte"),
             "accepted" => 1,
