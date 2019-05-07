@@ -165,7 +165,19 @@ array(
 
       "kreuger" =>
       array("name" => "Per Kreuger",
-            "href" => "https://www.sics.se/people/per-kreuger")
+            "href" => "https://www.sics.se/people/per-kreuger"),
+
+      "kroll" =>
+      array("name" => "Lars Kroll",
+            "href" => "https://www.kth.se/profile/lkroll/"),
+
+      "segeljakt" =>
+      array("name" => "Klas Segeljakt",
+            "href" => "https://www.kth.se/profile/klasseg/"),
+
+      "carbone" =>
+      array("name" => "Paris Carbone",
+            "href" => "https://www.ri.se/en/paris-carbone")
 	);
 
 
@@ -199,6 +211,29 @@ $AAAI_COPY = "Copyright &copy by <a href=\"http://www.aaai.org\">American Associ
       
 $papers =
 array(
+      "KrollSegeljaktEa:DBPL:2019" =>
+      array("type" =>        "workshop",
+	    "booktitle" =>   "Seventeenth ACM SIGPLAN International Symposium on Database Programming Languages",
+	    "publisher" =>   $ACM,
+            "copyright" =>   ACM_COPY(2019),
+	    "author" =>      array("kroll","segeljakt","carbone","schulte","haridi"),
+            "affiliation" => "KTH",
+	    "title" =>       "Arc: An IR for Batch and Stream Programming",
+            "selected" => 1,
+            "toappear" => 1,
+	    "year" =>  2019,
+            "month" => "JUN",
+            "address" => "Phoenix, AZ, USA",
+	    "abstract" => <<<EOA
+<p>
+In big data analytics, there is currently a large number of data programming models and
+their respective frontends such as relational tables, graphs,
+tensors, and streams. This has lead to a plethora of runtimes
+that typically focus on the efficient execution of just a single
+frontend. This fragmentation manifests itself today by highly complex pipelines that bundle multiple runtimes to support the necessary models. Hence, joint optimization and execution of such pipelines across these frontend-bound runtimes is infeasible. We propose Arc as the first unified Intermediate Representation (IR) for data analytics that incorporates stream semantics based on a modern specification of streams, windows and stream aggregation, to combine batch and stream computation models. Arc extends Weld, an IR for batch computation and adds support for partitioned, out-of-order stream and window operators which are the most fundamental building blocks in contemporary data streaming.</p>
+EOA
+	    ),
+      
       "CastanedaCarlssonEa:TOPLAS:2019" =>
       array("type" =>        "article",
             "title" => "Combinatorial Register Allocation and Instruction Scheduling",
