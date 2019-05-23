@@ -160,6 +160,9 @@ EOT
      <li><a href="https://www.kth.se/profile/tsoupidi">Rodothea (Romy) Myrsini Tsoupidi</a>,
          KTH Royal Institute of Technology, Sweden.
      </li>
+     <li><a href="https://www.kth.se/profile/jlwessen/">Johan (Ludde) Wessén</a>, 
+         KTH Royal Institute of Technology, Sweden.
+     </li>
      <li><a href="https://www.kth.se/profile/sarhal">Sara Frimodig</a>, 
          KTH Royal Institute of Technology, Sweden. Co-supervisor.
      </li>
