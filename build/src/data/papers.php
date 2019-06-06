@@ -287,7 +287,7 @@ EOA
             "affiliation" => "KTH",
             "toappear"        => 1,
             "month" =>       "MAY",
-            "volume" =>      52,'
+            "volume" =>      52,
             "number" =>      3,
             "pages" =>       array("62:1","62:50"),
             "selected" => 1,
