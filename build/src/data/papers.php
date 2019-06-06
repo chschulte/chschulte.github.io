@@ -266,7 +266,6 @@ EOA
             "affiliation" => "KTH",
 	    "title" =>       "Radiation Therapy Patient Scheduling",
             "selected" => 1,
-            "toappear" => 1,
             "note" => "Extended Abstract",
 	    "abstract" =>    <<<EOA
 <p>    
