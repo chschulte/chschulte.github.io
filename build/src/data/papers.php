@@ -243,7 +243,11 @@ EOA
 	    "publisher" =>   $ACM,
             "selected" => 1,
 	    "author" =>    array("castaneda","carlsson","ghb","schulte"),
-            "accepted" => 1,
+            "toappear"        => 1,
+            "month" =>       "JUN",
+            "volume" =>      41,
+            "number" =>      3,
+            "pages" =>       array("17:1","17:53"),
 	    "abstract" => <<<EOA
 <p>
 This paper introduces a combinatorial optimization approach to register allocation and instruction scheduling, two central compiler problems. Combinatorial optimization has the potential to solve these problems optimally and to exploit processor-specific features readily. Our approach is the first to leverage this potential in practice: it captures the complete set of program transformations used in state-of-the-art compilers, scales to medium-sized functions of up to 1000 instructions, and generates executable code. This level of practicality is reached by using constraint programming, a particularly suitable combinatorial optimization technique. Unison, the implementation of our approach, is open source, used in industry, and integrated with the LLVM toolchain.</p>
