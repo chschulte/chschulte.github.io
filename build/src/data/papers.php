@@ -4,15 +4,14 @@
 $authors = 
 array(
       "ayani" =>
-      array("href" => "http://web.it.kth.se/~rassul/",
-	    "name" => "Rassul Ayani"),
+      array("name" => "Rassul Ayani"),
 
       "carlsson" =>
-      array("href" => "http://www.sics.se/~matsc/",
+      array("href" => "https://www.sics.se/people/mats-carlsson",
 	    "name" => "Mats Carlsson"),
 
       "castaneda" =>
-      array("href" => "http://www.sics.se/~rcas/",
+      array("href" => "https://robcasloz.github.io/",
             "bibtex" => "Castañeda Lozano, Roberto",
 	    "name" => "Roberto Castañeda Lozano"),
 
@@ -20,7 +19,7 @@ array(
       array("name" => "Geoffrey Chu"),
 
       "delgado" =>
-      array("href" => "http://www.itu.dk/people/alde/",
+      array("href" => "https://www.linkedin.com/in/alberto-delgado-b528495/",
             "name" => "Alberto Delgado"),
       "duchier" =>
       array("href" => "http://www.univ-orleans.fr/lifo/Members/duchier/",
@@ -92,11 +91,10 @@ array(
 	    "name" => "Peter J. Stuckey"),
 
       "tack" =>
-      array("href" => "http://www.csse.monash.edu.au/~guidot/",
+      array("href" => "https://research.monash.edu/en/persons/guido-tack",
 	    "name" => "Guido Tack"),
       "brand" =>
-      array("href" => "http://www.sics.se/~perbrand",
-	    "name" => "Per Brand"),
+      array("name" => "Per Brand"),
 
       "vanroy" =>
       array("href" => "http://www.info.ucl.ac.be/people/cvvanroy.html",
@@ -136,7 +134,7 @@ array(
       "ghb" =>
       array("name" => "Gabriel Hjort Blindell",
             "bibtex" => "Hjort Blindell, Gabriel",
-            "href" => "http://web.ict.kth.se/~ghb/"),
+            "href" => "https://www.kth.se/profile/ghb"),
 
       "lee" =>
       array("name" => "Jimmy Ho Man Lee",
