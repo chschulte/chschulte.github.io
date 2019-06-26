@@ -12,6 +12,7 @@ array(
             array("year"  => 2020,
                   "month" => "FEB",
                   "role"  => $R_PCM,
+                  "url"   => "https://cc-conference.github.io/20/",
 		  "place" => "San Diego, CA, USA"))),
 
       "AAAI" =>
