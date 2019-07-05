@@ -222,6 +222,7 @@ array(
 	    "author" =>      array("frimodig","schulte"),
             "affiliation" => "KTH",
 	    "title" =>       "Models for Radiation Therapy Patient Scheduling",
+            "toappear"        => 1,
             "selected" => 1,
 	    "abstract" =>    <<<EOA
 <p>    
