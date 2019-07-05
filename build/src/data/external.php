@@ -3,10 +3,18 @@
 $ROLE_LIC = "Opponent, licentiate";
 $ROLE_OPHD = "Opponent, doctoral";
 $ROLE_PHD = "Examiner, doctoral";
+$ROLE_RPHD = "Reviewer, doctoral";
 $ROLE_HR = "Reviewer, habilitation";
 
 $external =
 array(
+      array(
+      "name"   => "Ghiles Ziat",
+      "title"  => "A Combination of Abstract Interpretation and Constraint Programming",
+      "date"   => array(3,7,2019),
+      "where"  => "Sorbonne Université, Paris, France",
+      "role"   => $ROLE_RPHD),
+
       array(
       "name"   => "Maxim Chabert",
       "title"  => "Constraint Programming Models for Conceptual Clustering: Application to an ERP Configuration Problem",

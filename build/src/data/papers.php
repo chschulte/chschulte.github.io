@@ -368,7 +368,6 @@ EOA
             "title" => "Combinatorial Register Allocation and Instruction Scheduling",
 	    "year" =>     2018,
             "month" => "APR",
-            "selected" => 1,
             "link" =>        "http://arxiv.org/abs/1804.02452",
 	    "author" =>    array("castaneda","carlsson","ghb","schulte"),
 	    "abstract" => <<<EOA
@@ -614,7 +613,6 @@ EOA
       
       "CastanedaCarlssonEa:LCTES:2014" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("Prasad Kulkarni"),
 	    "booktitle" =>   $LCTES,
 	    "year" =>        2014,
@@ -678,7 +676,6 @@ EOA
 
       "LothSebagEa:CoCoMile:2013" =>
       array("type" =>        "workshop",
-            "selected" => 1,
 	    "booktitle" =>   "COmbining COnstraint solving with MIning and LEarning",
 	    "year" =>        2013,
 	    "month" =>       "JUL",
@@ -824,7 +821,6 @@ EOA
       
       "CastanedaCarlssonEa:CP:2012" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("Michela Milano"),
 	    "booktitle" =>   "Eighteenth International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2012,
@@ -1146,7 +1142,6 @@ EOA
 
       "LagerkvistSchulte:CP:2009" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("Ian Gent"),
 	    "booktitle" =>   "Fifteenth International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2009,
