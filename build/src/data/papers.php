@@ -1973,7 +1973,7 @@ EOA
 	    "series" =>      $LNAI,
 	    "publisher" =>   $SPR,
             "volume" =>      2302,
-	    "link" =>        "http://link.springer.de/link/service/series/0558/tocs/t2302.htm",
+	    "link" =>        "https://link.springer.com/book/10.1007/3-540-45945-6",
             "affiliation" => "SU",
             "abstract" =>    <<<EOA
 <p>
