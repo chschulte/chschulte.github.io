@@ -8,9 +8,9 @@ $paper = $papers[$id];
 
 $o = <<<EOO
 <ul>
-<li><a href="papers.html">selected</a></li>
-<li><a href="papers-year.html">by year</a></li>
-<li><a href="papers-type.html">by type</a></li>
+<li><a href="$urlroot/papers.html">selected</a></li>
+<li><a href="$urlroot/papers-year.html">by year</a></li>
+<li><a href="$urlroot/papers-type.html">by type</a></li>
 </ul>
 EOO
 ;
