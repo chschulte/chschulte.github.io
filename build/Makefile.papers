@@ -1,7 +1,7 @@
 PAPERS = \
 papers/frimodigschulte-cp-2019.html papers/bibtex-frimodigschulte-cp-2019.html \
-papers/krollsegeljaktea-dbpl-2019.html papers/bibtex-krollsegeljaktea-dbpl-2019.html \
 papers/castanedacarlssonea-toplas-2019.html papers/bibtex-castanedacarlssonea-toplas-2019.html \
+papers/krollsegeljaktea-dbpl-2019.html papers/bibtex-krollsegeljaktea-dbpl-2019.html \
 papers/frimodigschulte-cpaior-2019.html papers/bibtex-frimodigschulte-cpaior-2019.html \
 papers/castanedaschulte-csur-2019.html papers/bibtex-castanedaschulte-csur-2019.html \
 papers/ingmarschulte-cp-2018.html papers/bibtex-ingmarschulte-cp-2018.html \
@@ -74,14 +74,14 @@ papers/frimodigschulte-cp-2019.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=FrimodigSchulte:CP:2019 | $(CONV) > papers/frimodigschulte-cp-2019.html
 papers/bibtex-frimodigschulte-cp-2019.html: src/bibtex.php src/defaults.php
 	php -f src/bibtex.php id=FrimodigSchulte:CP:2019 | $(CONV) > papers/bibtex-frimodigschulte-cp-2019.html
-papers/krollsegeljaktea-dbpl-2019.html: src/paper.php src/defaults.php
-	php -f src/paper.php id=KrollSegeljaktEa:DBPL:2019 | $(CONV) > papers/krollsegeljaktea-dbpl-2019.html
-papers/bibtex-krollsegeljaktea-dbpl-2019.html: src/bibtex.php src/defaults.php
-	php -f src/bibtex.php id=KrollSegeljaktEa:DBPL:2019 | $(CONV) > papers/bibtex-krollsegeljaktea-dbpl-2019.html
 papers/castanedacarlssonea-toplas-2019.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=CastanedaCarlssonEa:TOPLAS:2019 | $(CONV) > papers/castanedacarlssonea-toplas-2019.html
 papers/bibtex-castanedacarlssonea-toplas-2019.html: src/bibtex.php src/defaults.php
 	php -f src/bibtex.php id=CastanedaCarlssonEa:TOPLAS:2019 | $(CONV) > papers/bibtex-castanedacarlssonea-toplas-2019.html
+papers/krollsegeljaktea-dbpl-2019.html: src/paper.php src/defaults.php
+	php -f src/paper.php id=KrollSegeljaktEa:DBPL:2019 | $(CONV) > papers/krollsegeljaktea-dbpl-2019.html
+papers/bibtex-krollsegeljaktea-dbpl-2019.html: src/bibtex.php src/defaults.php
+	php -f src/bibtex.php id=KrollSegeljaktEa:DBPL:2019 | $(CONV) > papers/bibtex-krollsegeljaktea-dbpl-2019.html
 papers/frimodigschulte-cpaior-2019.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=FrimodigSchulte:CPAIOR:2019 | $(CONV) > papers/frimodigschulte-cpaior-2019.html
 papers/bibtex-frimodigschulte-cpaior-2019.html: src/bibtex.php src/defaults.php

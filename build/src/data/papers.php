@@ -233,6 +233,26 @@ All models are shown to be sensitive to an increase in the number of time window
 EOA
 	    ),
 
+      "CastanedaCarlssonEa:TOPLAS:2019" =>
+      array("type" =>        "article",
+            "title" => "Combinatorial Register Allocation and Instruction Scheduling",
+	    "year" =>  2019,
+            "month" => "JUL",
+	    "journal" =>     $TOPLAS,
+	    "publisher" =>   $ACM,
+            "selected" => 1,
+	    "author" =>    array("castaneda","carlsson","ghb","schulte"),
+            "volume" =>      41,
+            "number" =>      3,
+            "pages" =>       array("17:1","17:53"),
+	    "abstract" => <<<EOA
+<p>
+This paper introduces a combinatorial optimization approach to register allocation and instruction scheduling, two central compiler problems. Combinatorial optimization has the potential to solve these problems optimally and to exploit processor-specific features readily. Our approach is the first to leverage this potential in practice: it captures the complete set of program transformations used in state-of-the-art compilers, scales to medium-sized functions of up to 1000 instructions, and generates executable code. This level of practicality is reached by using constraint programming, a particularly suitable combinatorial optimization technique. Unison, the implementation of our approach, is open source, used in industry, and integrated with the LLVM toolchain.</p>
+<p>An extensive evaluation confirms that Unison generates better code than LLVM while scaling to medium-sized functions. The evaluation uses systematically selected benchmarks from MediaBench and SPEC CPU2006 and different processor architectures (Hexagon, ARM, MIPS). Mean estimated speedup ranges from 1.1% to 10% and mean code size reduction ranges from 1.3% to 3.8% for the different architectures. A significant part of this improvement is due to the integrated nature of the approach. Executing the generated code on Hexagon confirms that the estimated speedup results in actual speedup. Given a fixed time limit, Unison solves optimally functions of up to 946 instructions, nearly an order of magnitude larger than previous approaches.</p>
+</p>The results show that our combinatorial approach can be applied in practice to trade compilation time for code quality beyond the usual compiler optimization levels, identify improvement opportunities in heuristic algorithms, and fully exploit processor-specific features.</p>
+EOA
+	    ),
+      
       "KrollSegeljaktEa:DBPL:2019" =>
       array("type" =>        "workshop",
 	    "booktitle" =>   "Seventeenth ACM SIGPLAN International Symposium on Database Programming Languages",
@@ -242,7 +262,6 @@ EOA
             "affiliation" => "KTH",
 	    "title" =>       "Arc: An IR for Batch and Stream Programming",
             "selected" => 1,
-            "toappear" => 1,
 	    "year" =>  2019,
             "month" => "JUN",
             "address" => "Phoenix, AZ, USA",
@@ -253,27 +272,6 @@ their respective frontends such as relational tables, graphs,
 tensors, and streams. This has lead to a plethora of runtimes
 that typically focus on the efficient execution of just a single
 frontend. This fragmentation manifests itself today by highly complex pipelines that bundle multiple runtimes to support the necessary models. Hence, joint optimization and execution of such pipelines across these frontend-bound runtimes is infeasible. We propose Arc as the first unified Intermediate Representation (IR) for data analytics that incorporates stream semantics based on a modern specification of streams, windows and stream aggregation, to combine batch and stream computation models. Arc extends Weld, an IR for batch computation and adds support for partitioned, out-of-order stream and window operators which are the most fundamental building blocks in contemporary data streaming.</p>
-EOA
-	    ),
-      
-      "CastanedaCarlssonEa:TOPLAS:2019" =>
-      array("type" =>        "article",
-            "title" => "Combinatorial Register Allocation and Instruction Scheduling",
-	    "year" =>  2019,
-            "month" => "JUL",
-	    "journal" =>     $TOPLAS,
-	    "publisher" =>   $ACM,
-            "selected" => 1,
-	    "author" =>    array("castaneda","carlsson","ghb","schulte"),
-            "toappear"        => 1,
-            "volume" =>      41,
-            "number" =>      3,
-            "pages" =>       array("17:1","17:53"),
-	    "abstract" => <<<EOA
-<p>
-This paper introduces a combinatorial optimization approach to register allocation and instruction scheduling, two central compiler problems. Combinatorial optimization has the potential to solve these problems optimally and to exploit processor-specific features readily. Our approach is the first to leverage this potential in practice: it captures the complete set of program transformations used in state-of-the-art compilers, scales to medium-sized functions of up to 1000 instructions, and generates executable code. This level of practicality is reached by using constraint programming, a particularly suitable combinatorial optimization technique. Unison, the implementation of our approach, is open source, used in industry, and integrated with the LLVM toolchain.</p>
-<p>An extensive evaluation confirms that Unison generates better code than LLVM while scaling to medium-sized functions. The evaluation uses systematically selected benchmarks from MediaBench and SPEC CPU2006 and different processor architectures (Hexagon, ARM, MIPS). Mean estimated speedup ranges from 1.1% to 10% and mean code size reduction ranges from 1.3% to 3.8% for the different architectures. A significant part of this improvement is due to the integrated nature of the approach. Executing the generated code on Hexagon confirms that the estimated speedup results in actual speedup. Given a fixed time limit, Unison solves optimally functions of up to 946 instructions, nearly an order of magnitude larger than previous approaches.</p>
-</p>The results show that our combinatorial approach can be applied in practice to trade compilation time for code quality beyond the usual compiler optimization levels, identify improvement opportunities in heuristic algorithms, and fully exploit processor-specific features.</p>
 EOA
 	    ),
       
