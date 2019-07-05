@@ -1083,7 +1083,6 @@ EOA
       
       "ChuSchulteStuckey:CP:2009" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("Ian Gent"),
 	    "booktitle" =>   "Fifteenth International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2009,
@@ -1241,7 +1240,6 @@ EOA
 
       "SchulteTack:CP:2009" =>
       array("type" =>        "conference",
-            "selected" => 1,
             "editor" =>      array("Ian Gent"),
 	    "booktitle" =>   "Fifteenth International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2009,
@@ -1519,7 +1517,6 @@ EOA
     
       "LagerkvistSchulte:CP:2007" =>
       array("type" =>        "conference",
-            "selected" => 1,
 	    "title" =>       "Advisors for Incremental Propagation",
             "editor" =>      array("Christian Bessière"),
 	    "booktitle" =>   "Thirteenth International Conference on Principles and Practice of Constraint Programming",
@@ -1972,6 +1969,7 @@ EOA
 
       "Schulte:LNAI:2002" =>
       array("type" =>        "book",
+            "selected" => 1,
 	    "title" =>       "Programming Constraint Services",
 	    "author" =>      array("schulte"),
 	    "year" =>        2002,
