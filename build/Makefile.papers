@@ -1,4 +1,5 @@
 PAPERS = \
+papers/frimodigschulte-cp-2019.html papers/bibtex-frimodigschulte-cp-2019.html \
 papers/krollsegeljaktea-dbpl-2019.html papers/bibtex-krollsegeljaktea-dbpl-2019.html \
 papers/castanedacarlssonea-toplas-2019.html papers/bibtex-castanedacarlssonea-toplas-2019.html \
 papers/frimodigschulte-cpaior-2019.html papers/bibtex-frimodigschulte-cpaior-2019.html \
@@ -69,6 +70,10 @@ papers/schultesmolka-ilps-1994.html papers/bibtex-schultesmolka-ilps-1994.html \
 papers/schultesmolkawuertz-ppcp-1994.html papers/bibtex-schultesmolkawuertz-ppcp-1994.html \
 papers/schulte-master-1992.html papers/bibtex-schulte-master-1992.html \
 
+papers/frimodigschulte-cp-2019.html: src/paper.php src/defaults.php
+	php -f src/paper.php id=FrimodigSchulte:CP:2019 | $(CONV) > papers/frimodigschulte-cp-2019.html
+papers/bibtex-frimodigschulte-cp-2019.html: src/bibtex.php src/defaults.php
+	php -f src/bibtex.php id=FrimodigSchulte:CP:2019 | $(CONV) > papers/bibtex-frimodigschulte-cp-2019.html
 papers/krollsegeljaktea-dbpl-2019.html: src/paper.php src/defaults.php
 	php -f src/paper.php id=KrollSegeljaktEa:DBPL:2019 | $(CONV) > papers/krollsegeljaktea-dbpl-2019.html
 papers/bibtex-krollsegeljaktea-dbpl-2019.html: src/bibtex.php src/defaults.php
