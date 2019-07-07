@@ -56,6 +56,9 @@ function p_paper ($id, $p) {
   } else if ($p["journal"] != "") {
     print $p["journal"] . ", ";
   }
+  if ($p["publisher"] != "") {
+    print $p["publisher"] . ", ";
+  }
   print $p["year"] . ". ";
   if ($p["accepted"]) {
     print "Accepted for publication. ";
