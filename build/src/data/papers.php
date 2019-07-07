@@ -452,6 +452,7 @@ EOA
 	    "year" =>        2017,
             "month" =>       "NOV",
             "affiliation" => "KTH",
+            "publisher" =>   "IEEE",
             "copyright" =>   $IEEE_COPY,
 	    "author" =>      array("corcoran","andimeh","ermedahl","kreuger","schulte"),
             "pages" =>       array(1,9),

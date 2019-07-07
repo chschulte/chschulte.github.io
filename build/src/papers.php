@@ -38,7 +38,7 @@ function p_paper ($id, $p) {
   if ($p["type"] == "book") {
     print $p["series"] . ", " . $p["publisher"] . ", ";
   } else if ($p["type"] == "proceedings") {
-    print $p["series"] . " " . $p["volume"] . ", " . $p["publisher"] . ", ";
+    print $p["series"] . " " . $p["volume"] . ", ";
   } else if ($p["type"] == "report") {
     print "Report, ";
   } else if ($p["type"] == "draft") {
