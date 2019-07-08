@@ -19,7 +19,6 @@ array(
 
       array(
       "year"   => 2019,
-      "number" => "TRITA-EECS-EX-2019:299",
       "diva"   => "diva2:1334570",
       "name"   => array("Blake Tianze Wang"),
       "title"  => "Machine Learning for Constraint Programming",
