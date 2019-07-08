@@ -301,6 +301,10 @@ foreach ($mstudents as $i => $info) {
    } else if ($info["url"]) {
      print ("<a href=\"" . $info["url"] . "\">" .
             $info["title"] . "</a>");
+   } else if ($info["diva"]) {
+     print ("<a href=\"http://kth.diva-portal.org/smash/record.jsf?pid=" .
+            $info["diva"] . "\">" .
+            $info["title"] . "</a>");
    } else {
      print $info["title"];
    }
