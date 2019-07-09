@@ -3,7 +3,11 @@
   include 'data/courses.php';
   include 'data/students.php';
   page_header("education");
-  $full  = $_GET["full"];
+  if (array_key_exists("full",$_GET)) {
+    $full  = $_GET["full"];
+  } else {
+    $full = 0;
+  }
 ?>
 
 <div id="content">
@@ -22,19 +26,19 @@
 <ul>
 <?php
 foreach ($courses as $code => $info) {
-   if ($info["hide"] && !$full) {
+   if (array_key_exists("hide",$info) && !$full) {
       continue;
    }
-   if ($info["url"]) {
+   if (array_key_exists("url",$info)) {
       $u = $info["url"];
    } else {
       $u = "http://www.ict.kth.se/courses/$code/";
    }
-   if ($info["prevprev"]) {
+   if (array_key_exists("prevprev",$info)) {
       $prevprev = $info["prevprev"];
       $prev = $info["prev"];
       $c = "$code, $prev, $prevprev";
-   } else if ($info["prev"]) {
+   } else if (array_key_exists("prev",$info)) {
       $prevprev = "gaga";
       $prev = $info["prev"];
       $c = "$code, $prev";
@@ -57,7 +61,11 @@ foreach ($courses as $code => $info) {
       if ($limit <= 0) {
         continue;
       }
-      $d = $info["dur"];
+      if (array_key_exists("dur",$info)) {
+        $d = $info["dur"];
+      } else {
+        $d = 1;
+      }
       $y = $c["year"];
       $ye = $y+1;
       $p = $c["period"];
@@ -279,29 +287,29 @@ if ($full) {
   $n = 10;	
 }
 foreach ($mstudents as $i => $info) {
-   if ($info["idle"] || ($n <= 0)) {
+   if (array_key_exists("idle",$info) || ($n <= 0)) {
      continue;
    }
    $n--;
    print "<li>";
    $name = implode($info["name"], ", ");
-   if ($info["purl"]) {
+   if (array_key_exists("purl",$info)) {
      print "<a href=\"" . $info["purl"] . "\">" . $name . "</a>";
    } else {
      print $name;
    }
    print ", ";
-   if ($info["number"]) {
-     if ($info["hidden"]) {
+   if (array_key_exists("number",$info)) {
+     if (array_key_exists("hidden",$info)) {
        print ($info["title"]);
      } else {
        print ("<a href=\"teaching/theses/" . str_replace("/","-",$info["number"]) . ".pdf\">" .
               $info["title"] . "</a>");
      }
-   } else if ($info["url"]) {
+   } else if (array_key_exists("url",$info)) {
      print ("<a href=\"" . $info["url"] . "\">" .
             $info["title"] . "</a>");
-   } else if ($info["diva"]) {
+   } else if (array_key_exists("diva",$info)) {
      print ("<a href=\"http://kth.diva-portal.org/smash/record.jsf?pid=" .
             $info["diva"] . "\">" .
             $info["title"] . "</a>");
@@ -310,16 +318,16 @@ foreach ($mstudents as $i => $info) {
    }
    print ".<br />";
    print $info["inst"] . ", Master thesis, ";
-   if ($info["number"]) {
+   if (array_key_exists("number",$info)) {
       print $info["number"] . ", ";
    }
-   if ($info["year"]) {
+   if (array_key_exists("year",$info)) {
       print $info["year"];
    } else {
       print "ongoing";
    }
    print ".";
-   if ($info["note"]) {
+   if (array_key_exists("note",$info)) {
      print "<br>" . $info["note"] . ".";
    }
    print "</li>";
@@ -347,26 +355,26 @@ if ($full) {
   $n = 10;	
 }
 foreach ($bstudents as $i => $info) {
-   if ($info["idle"] || ($n <= 0)) {
+   if (array_key_exists("idle",$info) || ($n <= 0)) {
      continue;
    }
    $n--;
    print "<li>";
    $name = implode($info["name"], ", ");
-   if ($info["purl"]) {
+   if (array_key_exists("purl",$info)) {
      print "<a href=\"" . $info["purl"] . "\">" . $name . "</a>";
    } else {
      print $name;
    }
    print ", ";
-   if ($info["number"]) {
-     if ($info["hidden"]) {
+   if (array_key_exists("number",$info)) {
+     if (array_key_exists("hidden",$info)) {
        print ($info["title"]);
      } else {
        print ("<a href=\"teaching/theses/" . str_replace("/","-",$info["number"]) . ".pdf\">" .
               $info["title"] . "</a>");
      }
-   } else if ($info["url"]) {
+   } else if (array_key_exists("url",$info)) {
      print ("<a href=\"" . $info["url"] . "\">" .
             $info["title"] . "</a>");
    } else {
@@ -374,16 +382,16 @@ foreach ($bstudents as $i => $info) {
    }
    print ".<br />";
    print $info["inst"] . ", Bachelor thesis, ";
-   if ($info["number"]) {
+   if (array_key_exists("number",$info)) {
       print $info["number"] . ", ";
    }
-   if ($info["year"]) {
+   if (array_key_exists("year",$info)) {
       print $info["year"];
    } else {
       print "ongoing";
    }
    print ".";
-   if ($info["note"]) {
+   if (array_key_exists("note",$info)) {
      print "<br>" . $info["note"] . ".";
    }
    print "</li>";

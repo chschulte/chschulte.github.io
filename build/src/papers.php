@@ -1,7 +1,11 @@
 <?php
   include 'defaults.php';
 
-$opt  = $_GET["opt"];
+if (array_key_exists("opt",$_GET)) {
+  $opt  = $_GET["opt"];
+} else {
+  $opt = "";
+}
 
 if ($opt == "year") { 
   $cy = "class=\"gray\""; $cs=""; $ct="";
@@ -51,7 +55,7 @@ function p_paper ($id, $p) {
     print $p["typetype"] . ", " . $p["school"] . ", ";
   } else if ($p["type"] == "masterthesis") {
     print $p["typetype"] . ", " . $p["school"] . ", ";
-  } else if (array_key_exists("booktitle",$p) {
+  } else if (array_key_exists("booktitle",$p)) {
     print $p["booktitle"] . ", ";
   } else if (array_key_exists("journal",$p)) {
     print $p["journal"] . ", ";
@@ -60,13 +64,13 @@ function p_paper ($id, $p) {
     print $p["publisher"] . ", ";
   }
   print $p["year"] . ". ";
-  if ($p["accepted"]) {
+  if (array_key_exists("accepted",$p) && $p["accepted"]) {
     print "Accepted for publication. ";
   }
-  if ($p["toappear"]) {
+  if (array_key_exists("toappear",$p) && $p["toappear"]) {
     print "To appear. ";
   }
-  if ($p["note"] != "") {
+  if (array_key_exists("note",$p)) {
     print $p["note"] . ". ";
   }
   print "</li>";
@@ -196,7 +200,7 @@ if ($opt == "year") {
   print "<h2>Selected Papers</h2>";
   print "<ul>";
   foreach ($papers as $id => $p) {
-    if ($p["selected"]) {
+    if (array_key_exists("selected",$p) && $p["selected"]) {
       p_paper($id,$p);
     }
   }

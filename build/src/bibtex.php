@@ -8,9 +8,9 @@ $paper = $papers[$id];
 
 $o = <<<EOO
 <ul>
-<li><a href="papers.html">selected</a></li>
-<li><a href="papers-year.html">by year</a></li>
-<li><a href="papers-type.html">by type</a></li>
+<li><a href="${urlroot}papers.html">selected</a></li>
+<li><a href="${urlroot}papers-year.html">by year</a></li>
+<li><a href="${urlroot}papers-type.html">by type</a></li>
 </ul>
 EOO
 ;
@@ -32,7 +32,7 @@ function bib_author() {
   global $authors, $paper;
   $ma = array();
   foreach ($paper["author"] as $i => $a) {
-    if ($authors[$a]["bibtex"] != "") {
+    if (array_key_exists("bibtex",$authors[$a])) {
       $ma[$i] = $authors[$a]["bibtex"];
     } else {
       $ma[$i] = $authors[$a]["name"];
@@ -59,9 +59,9 @@ function bib_journal() {
 function bib_editor() {
   global $paper;
   global $bibeditors;
-  if ($paper["editor"] != "") {
+  if (array_key_exists("editor",$paper)) {
     foreach ($paper["editor"] as $i => $a) {
-    if ($bibeditors[$a] != "") {
+    if (array_key_exists($a,$bibeditors)) {
       $e[$i] = $bibeditors[$a];
     } else {
       $e[$i] = $a;
@@ -78,8 +78,8 @@ function bib_year() {
 function bib_month() {
   global $paper;
   global $months;
-  if ($paper["month"] != "") {
-    if ($months[$paper["month"]]) {
+  if (array_key_exists("month",$paper)) {
+    if (array_key_exists($paper["month"],$months)) {
        print ("   Month =     " . strtolower($paper["month"]) . ",\n");
     } else {
        print ("   Month =     \"" . $paper["month"] . "\",\n");
@@ -89,93 +89,93 @@ function bib_month() {
 
 function bib_address() {
   global $paper;
-  if ($paper["address"] != "") {
+  if (array_key_exists("address",$paper)) {
     print ("   Address =   \"" . $paper["address"] . "\",\n");
   }
 }
 
 function bib_publisher() {
   global $paper;
-  if ($paper["publisher"] != "") {
+  if (array_key_exists("publisher",$paper)) {
     print ("   Publisher = \"" . $paper["publisher"] . "\",\n");
   }
 }
 
 function bib_note() {
   global $paper;
-  if ($paper["note"] != "") {
+  if (array_key_exists("note",$paper)) {
     print ("   Note      = \"" . $paper["note"] . "\",\n");
   }
 }
 
 function bib_series() {
   global $paper;
-  if ($paper["series"] != "") {
+  if (array_key_exists("series",$paper)) {
     print ("   Series =    \"" . $paper["series"] . "\",\n");
   }
 }
 
 function bib_volume() {
   global $paper;
-  if ($paper["volume"] != "") {
+  if (array_key_exists("volume",$paper)) {
     print ("   Volume =    \"" . $paper["volume"] . "\",\n");
   }
 }
 
 function bib_number() {
   global $paper;
-  if ($paper["number"] != "") {
+  if (array_key_exists("number",$paper)) {
     print ("   Number =    \"" . $paper["number"] . "\",\n");
   }
 }
 
 function bib_type() {
   global $paper;
-  if ($paper["type"] != "") {
+  if (array_key_exists("type",$paper)) {
     print ("   Type =      \"" . $paper["type"] . "\",\n");
   }
 }
 
 function bib_typetype() {
   global $paper;
-  if ($paper["typetype"] != "") {
+  if (array_key_exists("typetype",$paper)) {
     print ("   Type =      \"" . $paper["typetype"] . "\",\n");
   }
 }
 
 function bib_chapter() {
   global $paper;
-  if ($paper["chapter"] != "") {
+  if (array_key_exists("chapter",$paper)) {
     print ("   Chapter =   " . $paper["chapter"] . ",\n");
   }
 }
 
 function bib_school() {
   global $paper;
-  if ($paper["school"] != "") {
+  if (array_key_exists("school",$paper)) {
     print ("   School =    \"" . $paper["school"] . "\",\n");
   }
 }
 
 function bib_pages() {
   global $paper;
-  if ($paper["pages"] != "") {
+  if (array_key_exists("pages",$paper)) {
     print ("   Pages =     \"" . $paper["pages"][0] . "--" . $paper["pages"][1] . "\",\n");
   }
 }
 
 function bib_footer() {
   global $paper, $id, $urlroot;
-  if ($paper["toappear"] != "") {
+  if (array_key_exists("toappear",$paper)) {
     print ("   Note =      \"To appear.\",\n");
   }
-  if ($paper["accepted"] != "") {
+  if (array_key_exists("accepted",$paper)) {
     print ("   Note =      \"Accepted for publication.\",\n");
   }
-  if ($paper["DOI"] != "") {
+  if (array_key_exists("DOI",$paper)) {
      print ("   DOI =       \"" . $paper["DOI"] . "\",\n");
   }
-  if ($paper["link"] != "") {
+  if (array_key_exists("link",$paper)) {
      print ("   URL =       \"" . $paper["link"] . "\"\n");
   } else {
      $pid = str_replace(":","-",strtolower($id));

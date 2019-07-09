@@ -8,9 +8,9 @@ $paper = $papers[$id];
 
 $o = <<<EOO
 <ul>
-<li><a href="$urlroot/papers.html">selected</a></li>
-<li><a href="$urlroot/papers-year.html">by year</a></li>
-<li><a href="$urlroot/papers-type.html">by type</a></li>
+<li><a href="${urlroot}papers.html">selected</a></li>
+<li><a href="${urlroot}papers-year.html">by year</a></li>
+<li><a href="${urlroot}papers-type.html">by type</a></li>
 </ul>
 EOO
 ;
@@ -28,14 +28,14 @@ page_header("Papers",$o);
   <p>
   [<?php
     $pid = str_replace(":","-",strtolower($id));
-    if ($paper["nopdf"] == 1) {
+    if (array_key_exists("nopdf",$paper)) {
       ;
-    } else if ($paper["link"] != "") {
+    } else if (array_key_exists("link",$paper)) {
       print ("<a href=\"" . $paper["link"] . "\">more</a> | ");
     } else {
       print ("<a href=\"" . $pid . ".pdf\">pdf</a> | ");      
     }
-    if ($paper["acm"] != "") {
+    if (array_key_exists("acm",$paper)) {
       print ("<a href=\"" . $paper["acm"] . "\">ACM version</a> | ");
     }
     print "<a href=\"bibtex-" . $pid . ".html\">bibtex</a>";
@@ -43,7 +43,7 @@ page_header("Papers",$o);
   </p>
 
   <?php
-    if ($paper["abstract"] != "") {
+    if (array_key_exists("abstract",$paper)) {
       print $paper["abstract"];
     }
   ?>
@@ -63,66 +63,68 @@ page_header("Papers",$o);
       print $paper["typetype"] . ", " . $paper["school"];
       print ", " . $paper["year"] . ".";
     } else if ($paper["type"] == "book") {
-      if ($paper["volume"] != "") {
+      if (array_key_exists("volume",$paper)) {
 	print "Volume " . $paper["volume"] . " of ";
       }
       print $paper["series"] . ", " . $paper["publisher"] . ", ";
       print $paper["year"];
     } else if ($paper["type"] == "proceedings") {
-      if ($paper["volume"] != "") {
+      if (array_key_exists("volume",$paper)) {
 	print "Volume " . $paper["volume"] . " of ";
       }
       print $paper["series"] . ", " . $paper["publisher"] . ", ";
       print $paper["year"];
     } else {
-      if ($paper["accepted"]) {
+      if (array_key_exists("accepted",$paper)) {
 	print "<b>Accepted for publication in:</b> ";
-      } else if ($paper["toappear"]) {
+      } else if (array_key_exists("toappear",$paper)) {
 	print "<b>To appear in:</b> ";
       } else {
 	print "<b>In:</b> ";
       }
-      if ($paper["editor"] != "") {
+      if (array_key_exists("editor",$paper)) {
 	print get_editor($paper) . ", ";
       }
-      if ($paper["booktitle"] != "") {
+      if (array_key_exists("booktitle",$paper)) {
 	print "<i>" . $paper["booktitle"] . "</i>";
-      } else if ($paper["journal"] != "") {
+      } else if (array_key_exists("journal",$paper)) {
 	print "<i>" . $paper["journal"] . "</i>";
-        if ($paper["volume"] != "" && $paper["number"] != "") {
+        if (array_key_exists("volume",$paper) && 
+            array_key_exists("number",$paper)) {
           print " " . $paper["volume"] . "(" . $paper["number"] . ")";
         }
       }
       if (($paper["type"] == "workshop" ||
-           $paper["type"] == "conference") && $paper["address"] != "") {
+           $paper["type"] == "conference") &&
+           array_key_exists("address",$paper)) {
 	print ", " . "<i>" . $paper["address"] . "</i>";
       }
-      if ($paper["series"] != "") {
-	if ($paper["volume"] != "") {
+      if (array_key_exists("series",$paper)) {
+	if (array_key_exists("volume",$paper)) {
 	  print ", volume " . $paper["volume"] . " of " . $paper["series"];
 	} else {
 	  print ", " . $paper["series"]; 
 	}
       }
-      if ($paper["pages"] != "") {
+      if (array_key_exists("pages",$paper)) {
 	print ", pages " . $paper["pages"][0] . "-" . $paper["pages"][1] . ". ";
       } else {
 	print ". "; 
       }
-      if ($paper["publisher"] != "") {
+      if (array_key_exists("publisher",$paper)) {
 	print $paper["publisher"] . ", ";
       }
-      if ($paper["month"] != "") {
+      if (array_key_exists("month",$paper)) {
 	print get_month($paper) . ", ";
       }
       print $paper["year"] . ". ";
-      if ($paper["DOI"] != "") {
+      if (array_key_exists("DOI",$paper)) {
         print "<a href=\"http://dx.doi.org/" . $paper["DOI"] . "\">DOI " . $paper["DOI"] . "</a>.";
       }
-      if ($paper["note"] != "") {
+      if (array_key_exists("note",$paper)) {
         print "</p><p>" . $paper["note"] . ".";
       }
-      if ($paper["copyright"] != "") {
+      if (array_key_exists("copyright",$paper)) {
         print "</p><p class=\"box\">" . $paper["copyright"];
       }
     }      

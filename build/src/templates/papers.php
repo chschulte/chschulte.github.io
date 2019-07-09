@@ -17,7 +17,7 @@ function get_authors($p) {
     } else {
       foreach ($p["author"] as $i => $a) {
         $name = $authors[$a]["name"];
-        if ($authors[$a]["href"] != "") {
+        if (array_key_exists("href",$authors[$a])) {
            $ma[$i] = ("<a href=\"" . $authors[$a]["href"] . "\">" .
   		    $name . "</a>");
         } else {
@@ -39,7 +39,7 @@ function get_editor($p) {
 
 function get_month($p) {
     global $months;
-    if ($months[$p["month"]]) {
+    if (array_key_exists($p["month"],$months)) {
        return $months[$p["month"]];
     } else {
        return $p["month"];

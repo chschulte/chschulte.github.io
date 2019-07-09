@@ -43,7 +43,7 @@
   for ($i=0; $i < count($suburls); $i++) {
      if ($suburls[$i]["url"] == "$self") {
      	$hdr  = $suburls[$i]["hdr"];
-        if ($suburls[$i]["slogan"]) {
+        if (array_key_exists("slogan",$suburls[$i])) {
            $slogan = $suburls[$i]["slogan"];
         } else {
           if ($oslogan != "") {
@@ -52,7 +52,7 @@
             $slogan = "Christian Schulte";
           }
         }
-        if ($suburls[$i]["title"]) {
+        if (array_key_exists("title",$suburls[$i])) {
            $title = $suburls[$i]["title"];
         } else {
            $title = "Christian Schulte: $hdr";
