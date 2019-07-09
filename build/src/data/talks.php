@@ -7,6 +7,13 @@ $PSLAB  = "Programming Systems Lab, Saarland University, Saarbrücken, Germany";
    
 $talks =
 array(
+      array("title" =>   "The Solver Side of Constraint Programming",
+            "type"  =>   "lecture",
+            "link" =>    "https://school.a4cp.org/summer2018/",
+	    "event" =>   "ACP Summer School",
+	    "address" => "Jackson, WY, USA", 
+            "date" =>    array(4,6,2018)),
+
       array("title" =>   "Gecode - an open constraint solving library",
 	    "address" => "NordConsNet Workshop, Gothenburg, Sweden",
             "slides" =>  "Gecode 2018.pdf",
