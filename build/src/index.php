@@ -8,7 +8,7 @@
     <img src="images/schulte.jpg" 
          alt="Photo of Christian Schulte" 
          class="left photo"
-         width="50%" />
+         width="200px" />
 
     <p>
     Christian Schulte is a professor of computer science at the division
