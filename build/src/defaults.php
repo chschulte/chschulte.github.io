@@ -150,7 +150,7 @@ $wday = array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
 
   <div id="footer">
     &copy; 2009 <a href="https://chschulte.github.io/">Christian Schulte</a> (<?php echo $cts; ?>) |
-    original design by <a href="http://andreasviklund.com/"
+    original design by <a href="https://andreasviklund.com/"
     >Andreas Viklund</a>
   </div>
 

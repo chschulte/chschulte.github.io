@@ -36,7 +36,7 @@ function p_paper ($id, $p) {
 	 get_title($p) . "</a>, <span class=\"authors\">" . 
          get_authors($p) . "</span>.<br />");
   if ($p["type"] == "book") {
-    print $p["series"] . ", " . $p["publisher"] . ", ";
+    print $p["series"] . ", ";
   } else if ($p["type"] == "proceedings") {
     print $p["series"] . " " . $p["volume"] . ", ";
   } else if ($p["type"] == "report") {
@@ -51,12 +51,12 @@ function p_paper ($id, $p) {
     print $p["typetype"] . ", " . $p["school"] . ", ";
   } else if ($p["type"] == "masterthesis") {
     print $p["typetype"] . ", " . $p["school"] . ", ";
-  } else if ($p["booktitle"] != "") {
+  } else if (array_key_exists("booktitle",$p) {
     print $p["booktitle"] . ", ";
-  } else if ($p["journal"] != "") {
+  } else if (array_key_exists("journal",$p)) {
     print $p["journal"] . ", ";
   }
-  if ($p["publisher"] != "") {
+  if (array_key_exists("publisher",$p)) {
     print $p["publisher"] . ", ";
   }
   print $p["year"] . ". ";

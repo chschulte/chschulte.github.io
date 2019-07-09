@@ -22,10 +22,10 @@ array(
       array("href" => "https://www.linkedin.com/in/alberto-delgado-b528495/",
             "name" => "Alberto Delgado"),
       "duchier" =>
-      array("href" => "http://www.univ-orleans.fr/lifo/Members/duchier/",
+      array("href" => "https://www.univ-orleans.fr/lifo/Members/duchier/index_en.html",
             "name" => "Denys Duchier"),
       "drejhammar" =>
-      array("href" => "http://www.sics.se/~frej/",
+      array("href" => "https://www.sics.se/people/frej-drejhammar",
             "name" => "Frej Drejhammar"),
 
       "flener" =>
@@ -41,12 +41,12 @@ array(
 	    "name" => "Thom Frühwirth"),
 
       "haridi" =>
-      array("href" => "http://www.sics.se/~seif/",
+      array("href" => "https://www.sics.se/people/seif-haridi",
 	    "name" => "Seif Haridi"),
       "havelka" =>
       array("name" => "Dragan Havelka"),
       "henz" =>
-      array("href" => "http://www.comp.nus.edu.sg/~henz/",
+      array("href" => "https://www.comp.nus.edu.sg/~henz/",
             "name" => "Martin Henz"),
 
       "ingmar" =>
@@ -54,8 +54,7 @@ array(
             "name" => "Linnea Ingmar"),
 
       "jensen" =>
-      array("href" => "http://www.itu.dk/people/rmj/",
-            "name" => "Rune Møller Jensen",
+      array("name" => "Rune Møller Jensen",
             "bibtex" => "Rune {Møller Jensen}"),
 
       "kamrani" =>
@@ -65,29 +64,31 @@ array(
       array("name" => "Leif Kornstaedt"),
 
       "lagerkvist" =>
-      array("href" => "http://web.it.kth.se/~zayenz/",
+      array("href" => "https://zayenz.se/",
             "name" => "Mikael Z. Lagerkvist"),
 
       "mehl" =>
       array("name" => "Michael Mehl"),
       "michel" =>
-      array("href" => "http://www.engr.uconn.edu/~ldm/",
+      array("href" => "https://ldm.engr.uconn.edu/",
 	    "name" => "Laurent Michel"),
 
       "reischuk" => 
-      array("href" => "http://www.infsec.cs.uni-sb.de/~reischuk/",
+      array("href" => "https://www.reischuk.ch/web/",
 	    "name" => "Raphael M. Reischuk"),
 
       "scheidhr" =>
       array("name" => "Ralf Scheidhauer"),
+
       "schulte" => 
       array("href" => "https://chschulte.github.io/",
 	    "name" => "Christian Schulte"),
+
       "smolka" =>
-      array("href" => "http://www.ps.uni-sb.de/~smolka/",
-	    "name" => "Gert Smolka"),
+      array("name" => "Gert Smolka"),
+
       "stuckey" =>
-      array("href" => "http://www.cs.mu.oz.au/~pjs/",
+      array("href" => "https://research.monash.edu/en/persons/peter-stuckey",
 	    "name" => "Peter J. Stuckey"),
 
       "tack" =>
@@ -97,12 +98,12 @@ array(
       array("name" => "Per Brand"),
 
       "vanroy" =>
-      array("href" => "http://www.info.ucl.ac.be/people/cvvanroy.html",
+      array("href" => "https://www.info.ucl.ac.be/~pvr/cvvanroy.html",
 	    "name" => "Peter Van Roy",
             "bibtex" => "Peter {Van Roy}"),
 
       "vanhentenryck" =>
-      array("href" => "http://nicta.com.au/people/pvanhentenryck",
+      array("href" => "https://www.scl.gatech.edu/users/pascal-van-hentenryck",
 	    "name" => "Pascal Van Hentenryck",
             "bibtex" => "Pascal {Van Hentenryck}"),
 
@@ -116,20 +117,19 @@ array(
       array("name" => "Irfan Younas"),
 
       "loth" =>
-      array("name" => "Manuel Loth",
-            "href" => "https://sites.google.com/site/lothmanuel/"),
+      array("name" => "Manuel Loth"),
 
       "sebag" =>
       array("name" => "Michèle Sebag",
-            "href" => "http://www.lri.fr/~sebag/"),
+            "href" => "https://www.lri.fr/~sebag/"),
     
       "hamadi" =>
       array("name" => "Youssef Hamadi",
-            "href" => "http://research.microsoft.com/en-us/people/youssefh/"),
+            "href" => "https://www.linkedin.com/in/youssef-hamadi-778a033/"),
 
       "schoenauer" =>
       array("name" => "Marc Schoenauer",
-            "href" => "http://www.lri.fr/~marc/"),
+            "href" => "https://www.lri.fr/~marc/"),
 
       "ghb" =>
       array("name" => "Gabriel Hjort Blindell",
