@@ -81,7 +81,7 @@ For technical questions about Gecode, please do not ask me directly but use the
 
 <h2 id="mozart">Mozart</h2>
 
-<a href="http://www.mozart-oz.org/"
+<a href="https://mozart.github.io/"
   ><img class="right"
         alt="Mozart Logo"
         src="images/mozart.gif"
@@ -89,8 +89,7 @@ For technical questions about Gecode, please do not ask me directly but use the
 
 <p>
 I am a main designer, am the main developer, and have been
-leading the distributed development of 
-<a href="http://www.mozart-oz.org">Mozart</a>, a programming
+leading the distributed development of Mozart, a programming
 platform for constraint and distributed programming, from 1997 to 2001.
 </p>
 
