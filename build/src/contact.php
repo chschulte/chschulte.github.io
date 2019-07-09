@@ -27,6 +27,11 @@
             <td><a href="http://orcid.org/0000-0002-6283-7004"
 	        >0000-0002-6283-7004</td>
           </tr>
+          <tr align="left">
+            <th>KTH Profile</th> 
+            <td><a href="https://www.kth.se/profile/cschulte/"
+	        >Christian Schulte</td>
+          </tr>
         </table>
 
   <p>

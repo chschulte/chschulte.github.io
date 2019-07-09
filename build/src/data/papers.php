@@ -85,7 +85,8 @@ array(
 	    "name" => "Christian Schulte"),
 
       "smolka" =>
-      array("name" => "Gert Smolka"),
+      array("name" => "Gert Smolka",
+            "href" => "http://www.ps.uni-saarland.de/~smolka/"),
 
       "stuckey" =>
       array("href" => "https://research.monash.edu/en/persons/peter-stuckey",
