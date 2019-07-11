@@ -19,6 +19,12 @@ array(
 
       array(
       "year"   => 2019,
+      "name"   => array("Christiaan Boersma"),
+      "title"  => "Designing a platform to communicate posture and movement data to medical professionals",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2019,
       "diva"   => "diva2:1334570",
       "name"   => array("Blake Tianze Wang"),
       "title"  => "Machine Learning for Constraint Programming",
