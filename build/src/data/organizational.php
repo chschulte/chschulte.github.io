@@ -18,6 +18,12 @@ array(
       "AAAI" =>
       array("name" => "AAAI Conference on Artificial Intelligence",
 	    "data" => array(
+            array("year"  => 2020,
+                  "month" => "FEB",
+                  "role"  => $R_PCM,
+		  "place" => "New York, NY, USA",
+		  "url"   => "https://www.aaai.org/Conferences/AAAI-20/"),
+
             array("year"  => 2019,
                   "month" => "JAN",
                   "role"  => $R_PCM,
