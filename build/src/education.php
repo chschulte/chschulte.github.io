@@ -198,7 +198,9 @@ EOT
      <li><a href="https://www.linkedin.com/in/robcasloz/">Roberto Castañeda Lozano</a>, 
          KTH Royal Institute of Technology, Sweden.
          <div class="lit"
-         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-232192">Constraint-Based Register Allocation and Instruction Scheduling</a>. Doctoral degree, 2018.
+         ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-232192">Constraint-Based Register Allocation and Instruction Scheduling</a>. Roberto's dissertation has been awarded a Honorable Mention for the
+  <a href="https://www.a4cp.org/awards/doctoral-research-award">Doctoral Research Award</a> 2019 of the Association of Constraint
+  Programming. Doctoral degree, 2018.
          </div>
          <div class="lit"
          ><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-154599">Integrated Register Allocation and Instruction Scheduling with Constraint Programming</a>. Licentiate degree, 2014.
@@ -239,7 +241,7 @@ EOT
          <a href="http://www.ps.uni-sb.de/Papers/abstracts/tackDiss.html">Constraint Propagation: Models, Techniques,
          Implementation</a>. Doctoral degree, 2009.
          Guido's dissertation has won the
-  <a href="http://www.a4cp.org/awards/doctoral-research-award">Doctoral Research Award</a> 2010 of the Association of Constraint
+  <a href="https://www.a4cp.org/awards/doctoral-research-award">Doctoral Research Award</a> 2010 of the Association of Constraint
   Programming. Co-supervisor.
          </div>
      </li>
