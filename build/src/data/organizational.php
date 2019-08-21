@@ -360,6 +360,11 @@ array(
       "MCC" => 
       array("name" => "Nordic Workshop on Multi-Core Computing",
 	    "data" => array(
+            array("year"  => 2019,
+                  "month" => "NOV",
+                  "role"  => "pc member",
+                  "url"   => "https://sites.google.com/view/mcc2019",
+		  "place" => "Karlskrona, Sweden"),
             array("year"  => 2018,
                   "month" => "NOV",
                   "role"  => "pc member",
