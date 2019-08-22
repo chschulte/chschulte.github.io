@@ -3,6 +3,29 @@ Original design: 1024px (v3.0 - Apr 24, 2008) - A free xhtml/css website templat
 For more information, see http://andreasviklund.com/templates/1024px/
 */
 
+/* Fonts */
+@font-face {
+  font-family: Cabin;
+  src: url(fonts/Cabin-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: Cabin;
+  src: url(fonts/Cabin-RegularItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: Cabin;
+  src: url(fonts/Cabin-SemiBold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: Cabin;
+  src: url(fonts/Cabin-SemiBoldItalic.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
 /* General tags */
 body {background:url(images/background.gif) repeat-y top center #fff; color:#404040; font-family: 'Cabin',sans-serif; font-size:85%; line-height:1.3em; margin:0 auto; padding:0;}
 a {color:#4088b8; font-weight:600; text-decoration:none;}

@@ -76,7 +76,6 @@
 <head>
 	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
 	<meta name="author" content="Christian Schulte" />
-        <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,600,600i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" 
               href="<?php echo $urlroot; ?>style.css" title="1024px" media="screen,projection" />
 	<title><?php echo $title; ?></title>
