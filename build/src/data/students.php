@@ -6,6 +6,18 @@ $ST_PSL = "Saarland University, Germany";
 $mstudents =
 array(
       array(
+      "year"   => 2020,
+      "name"   => array("Pietrro Alovisi"),
+      "title"  => "TBD",
+      "inst"   => $ST_KTH),
+
+      array(
+      "year"   => 2020,
+      "name"   => array("Sofia Pedersén"),
+      "title"  => "TBD",
+      "inst"   => $ST_KTH),
+
+      array(
       "year"   => 2019,
       "name"   => array("Jinju Joy"),
       "title"  => "TBD",
