@@ -69,7 +69,6 @@
     <h2>Current Activities</h2>
 
     <ul>
-    <li>Program committee member, <a href="https://ijcai19.org/">IJCAI 2019</a>, Macao, China. August 2019.</li>   
     <li>Program committee member, <a href="http://cp2019.a4cp.org">CP 2019</a>, Stamford, CT, USA. September 2019.</li>   
     <li>Program committee member, <a href="https://esweek.org/sites/default/files/2019-CASES-cfp_0.pdf">CASES 2019</a>, New York City, NY, USA. October 2019.</li>
     <li>Program committee member, <a href="https://sites.google.com/view/mcc2019">MCC 2019</a>, Karlskrona, Sweden. November 2019.</li>

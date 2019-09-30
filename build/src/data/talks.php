@@ -7,6 +7,12 @@ $PSLAB  = "Programming Systems Lab, Saarland University, Saarbrücken, Germany";
    
 $talks =
 array(
+      array("title" =>   "Combinatorial Register Allocation and Instruction Scheduling",
+	    "address" => "ModRef 2019, Stamford, CT, USA",
+            "slides" =>  "CP2019.pdf",
+            "type"  =>   "invited",
+            "date" =>    array(30,9,2019)),
+
       array("title" =>   "The Solver Side of Constraint Programming",
             "type"  =>   "lecture",
             "link" =>    "https://school.a4cp.org/summer2018/",
