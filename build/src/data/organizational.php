@@ -121,11 +121,6 @@ array(
       "CP" => 
       array("name" => "International Conference on Principles and Practice of Constraint Programming",
 	    "data" => array(
-            array("year"  => 2019,
-                  "month" => "SEP",
-                  "role"  => $R_PCM,
-                  "url"   => "http://cp2019.a4cp.org",
-		  "place" => "Stamford, CT, USA"),
             array("year"  => 2018,
                   "month" => "AUG",
                   "role"  => $R_PCM,
