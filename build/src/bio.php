@@ -138,7 +138,7 @@ foreach ($external as $i => $e) {
     <ul>
     <li>Since May 2018, co-director of the
     <a href="https://www.castor.kth.se/">CASTOR Software Research Centre</a>.</li>
-    <li>January 2018 - December 2019, member of recruiting committee EECS (School of Electrical Engineering and Computer Science), KTH Royal Institute of Technology.</li>
+    <li>January 2018 - December 2021, member of recruiting committee EECS (School of Electrical Engineering and Computer Science), KTH Royal Institute of Technology.</li>
     <li>Since January 2013, program director of the doctoral program "Information and Communication Technology".</li>
     <li>Since July 2012,
      professor, <a href="http://www.kth.se/"
