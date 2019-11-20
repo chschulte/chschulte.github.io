@@ -212,7 +212,7 @@ $papers =
 array(
       "FrimodigSchulte:CP:2019" =>
       array("type" =>        "conference",
-            "editor" =>      array("Thomas Schiex"),
+            "editor" =>      array("Thomas Schiex","Simon de Givry"),
 	    "booktitle" =>   "Twentyfifth International Conference on Principles and Practice of Constraint Programming",
 	    "year" =>        2019,
 	    "month" =>       "SEP",
@@ -223,7 +223,9 @@ array(
 	    "author" =>      array("frimodig","schulte"),
             "affiliation" => "KTH",
 	    "title" =>       "Models for Radiation Therapy Patient Scheduling",
-            "toappear"        => 1,
+            "DOI" => "10.1007/978-3-030-30048-7_25",
+            "pages" => array(421,437),
+            "volume" => 11802,
             "selected" => 1,
 	    "abstract" =>    <<<EOA
 <p>    
