@@ -34,7 +34,7 @@
     and project leader at the German Research Center for Artificial
     Intelligence (DFKI) (1992-1997) and as a researcher at
     Saarland University, Germany (1997-2002), from which he also obtained
-    a doctoral degree in engineering (2001). At KTH, he earned a docent degree in computer systems in 2009. Christian also worked as an expert researcher at RISE SICS (2010-2018).
+    a doctoral degree in engineering (2001). At KTH, he obtained a docent degree in computer systems in 2009. Christian also worked as an expert researcher at RISE SICS (2010-2018).
     </p>
 
 
