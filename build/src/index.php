@@ -69,7 +69,6 @@
     <h2>Current Activities</h2>
 
     <ul>
-    <li>Program committee member, <a href="https://sites.google.com/view/mcc2019">MCC 2019</a>, Karlskrona, Sweden. November 2019.</li>
     <li>Program committee member, <a href="https://conf.researchr.org/home/CC-2020">CC 2020</a>, San Diego, CA, USA. February 2020.</li>
     <li>Program committee member, <a href="https://aaai.org/Conferences/AAAI-20/">AAAI 2020</a>, New York, NY, USA. February 2020.</li>    
     </ul>
